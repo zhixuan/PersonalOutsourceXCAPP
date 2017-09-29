@@ -1,0 +1,47 @@
+//
+//  NSDate+WeekDate.m
+//  AIPuTravelProduct
+//
+//  Created by ZhangLiGuang on 15/8/3.
+//  Copyright (c) 2015年 BeiJing AiPuTechnology Co.,LTD. All rights reserved.
+//
+
+#import "NSDate+WeekDate.h"
+
+@implementation NSDate (WeekDate)
+- (NSString *)stringDateForWeekday{
+    NSDateComponents *componets = [[NSCalendar autoupdatingCurrentCalendar] components:NSWeekdayCalendarUnit fromDate:self];
+    
+    NSString *weekdayStr = @"";
+    NSInteger weekday = [componets weekday];
+    if( weekday==1 ){
+        weekdayStr = APLocalizedString(@"Sunday",nil);
+    }else if( weekday==2 ){
+        weekdayStr = APLocalizedString(@"Monday", nil);
+    }else if( weekday==3 ){
+        weekdayStr =  APLocalizedString(@"Tuesday", nil);
+    }else if( weekday==4 ){
+        weekdayStr  = APLocalizedString(@"Wednesday", nil);
+    }else if( weekday==5 ){
+        weekdayStr = APLocalizedString(@"Thursday", nil);
+    }else if( weekday==6 ){
+        weekdayStr = APLocalizedString(@"Friday", nil);
+    }else if( weekday==7 ){
+        weekdayStr = APLocalizedString(@"Saturday", nil);
+    }else{
+        weekdayStr = APLocalizedString(@"Monday", nil);
+    }
+    return weekdayStr;
+}
+
+/**
+ "Monday"                =           "星期一";
+ "Tuesday"               =           "星期二";
+ "Wednesday"             =           "星期三";
+ "Thursday"              =           "星期四";
+ "Friday"                =           "星期五";
+ "Saturday"              =           "星期六";
+ "Sunday"                =           "星期天";
+ 
+ ***/
+@end

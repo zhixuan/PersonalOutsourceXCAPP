@@ -1,0 +1,13 @@
+//
+//  NSDate+WeekDate.h
+//  AIPuTravelProduct
+//
+//  Created by ZhangLiGuang on 15/8/3.
+//  Copyright (c) 2015年 BeiJing AiPuTechnology Co.,LTD. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface NSDate (WeekDate)
+- (NSString *)stringDateForWeekday;
+@end

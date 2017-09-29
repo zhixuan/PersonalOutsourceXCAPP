@@ -7,25 +7,616 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18085C531D87A0F800B81FFB /* TrainTicketSeatSelectedLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18085C521D87A0F800B81FFB /* TrainTicketSeatSelectedLayerView.m */; };
+		18085C561D8808B900B81FFB /* OrderImmediatePayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18085C551D8808B900B81FFB /* OrderImmediatePayViewController.m */; };
+		180C2FB91D33D97B004DC1A0 /* PerOrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180C2FB81D33D97B004DC1A0 /* PerOrderListViewController.m */; };
+		180C2FBC1D33D998004DC1A0 /* PerOrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 180C2FBB1D33D998004DC1A0 /* PerOrderTableViewCell.m */; };
+		180C2FC21D33DF5D004DC1A0 /* OrderExpenseDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180C2FC11D33DF5D004DC1A0 /* OrderExpenseDetailView.m */; };
+		180C2FC51D348D53004DC1A0 /* AddMoveIntoPersonnelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180C2FC41D348D53004DC1A0 /* AddMoveIntoPersonnelViewController.m */; };
+		1815DA051D23AAA700F86073 /* HTTPClient+HotelsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1815DA041D23AAA700F86073 /* HTTPClient+HotelsRequest.m */; };
+		1815DA0C1D23ADA800F86073 /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 1815DA091D23ADA800F86073 /* UIScrollView+SVInfiniteScrolling.m */; };
+		1815DA0D1D23ADA800F86073 /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 1815DA0B1D23ADA800F86073 /* UIScrollView+SVPullToRefresh.m */; };
+		1815DA0F1D23CB1100F86073 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1815DA0E1D23CB1100F86073 /* MapKit.framework */; };
+		1815DA111D23CB1A00F86073 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1815DA101D23CB1A00F86073 /* CoreLocation.framework */; };
+		181AFD591D35E58100F2B844 /* HTTPClient+OrderRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 181AFD581D35E58100F2B844 /* HTTPClient+OrderRequest.m */; };
+		181AFD621D360FC300F2B844 /* DefaultotelRecommendSearchLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181AFD611D360FC300F2B844 /* DefaultotelRecommendSearchLayerView.m */; };
+		181AFD651D36112B00F2B844 /* PriceStarSearchLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181AFD641D36112B00F2B844 /* PriceStarSearchLayerView.m */; };
+		181AFD6B1D36368500F2B844 /* HotelMapAddressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181AFD681D36368500F2B844 /* HotelMapAddressController.m */; };
+		181AFD6F1D3636AA00F2B844 /* HotelIntroduceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181AFD6E1D3636AA00F2B844 /* HotelIntroduceController.m */; };
+		181AFD721D36370400F2B844 /* HotelCommentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181AFD711D36370400F2B844 /* HotelCommentController.m */; };
+		181AFD751D36432700F2B844 /* HotelReserveMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181AFD741D36432700F2B844 /* HotelReserveMainViewController.m */; };
+		182109D21D9B975C00D86E4B /* HotelOrderInfoDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182109D11D9B975C00D86E4B /* HotelOrderInfoDetailController.m */; };
+		1825FF981DB746D30021B570 /* HotelReserveTenantInforController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825FF971DB746D30021B570 /* HotelReserveTenantInforController.m */; };
+		1825FF9B1DB74CDE0021B570 /* HotelReserveTenantInforTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825FF9A1DB74CDE0021B570 /* HotelReserveTenantInforTableCell.m */; };
+		18290F6D1D2CF4610094D35C /* BundlePhoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18290F6C1D2CF4610094D35C /* BundlePhoneController.m */; };
+		18290F701D2CF4740094D35C /* BundlePhoneFinishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18290F6F1D2CF4740094D35C /* BundlePhoneFinishViewController.m */; };
+		182E19C41F298565004FAF3E /* BabyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E19C31F298565004FAF3E /* BabyInfo.m */; };
+		18301FEF1DB8AFB6007B94B9 /* MoreSiftRequirementAreaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18301FEE1DB8AFB6007B94B9 /* MoreSiftRequirementAreaTableViewCell.m */; };
+		183989371D64072E007CF4B6 /* CalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183989261D64072E007CF4B6 /* CalendarDayCell.m */; };
+		183989381D64072E007CF4B6 /* CalendarDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183989281D64072E007CF4B6 /* CalendarDayModel.m */; };
+		183989391D64072E007CF4B6 /* CalendarHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839892A1D64072E007CF4B6 /* CalendarHomeViewController.m */; };
+		1839893A1D64072E007CF4B6 /* CalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839892C1D64072E007CF4B6 /* CalendarLogic.m */; };
+		1839893B1D64072E007CF4B6 /* CalendarMonthCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839892E1D64072E007CF4B6 /* CalendarMonthCollectionViewLayout.m */; };
+		1839893C1D64072E007CF4B6 /* CalendarMonthHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183989301D64072E007CF4B6 /* CalendarMonthHeaderView.m */; };
+		1839893D1D64072E007CF4B6 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183989321D64072E007CF4B6 /* CalendarViewController.m */; };
+		1839893E1D64072E007CF4B6 /* chack.png in Resources */ = {isa = PBXBuildFile; fileRef = 183989331D64072E007CF4B6 /* chack.png */; };
+		1839893F1D64072E007CF4B6 /* NSDate+WQCalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 183989361D64072E007CF4B6 /* NSDate+WQCalendarLogic.m */; };
+		183989431D640BBD007CF4B6 /* CityInforViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183989421D640BBD007CF4B6 /* CityInforViewController.m */; };
+		183C473F1D2107240084693D /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C473E1D2107240084693D /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		183EC8DE1D92379A00BF7659 /* CityInforForTrainTicketController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183EC8DD1D92379A00BF7659 /* CityInforForTrainTicketController.m */; };
+		183EC8E11D928A2600BF7659 /* CityInforForTrainTicketTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183EC8E01D928A2600BF7659 /* CityInforForTrainTicketTableViewCell.m */; };
+		183F22581D5A03690002AEA5 /* ASLocalSetupSystemNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F22571D5A03690002AEA5 /* ASLocalSetupSystemNotification.m */; };
+		1840CCE91D630C11009D780A /* FlightSearchListLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840CCE81D630C11009D780A /* FlightSearchListLayerView.m */; };
+		1840CCEC1D631C3D009D780A /* FlightAccurateSiftController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1840CCEB1D631C3D009D780A /* FlightAccurateSiftController.m */; };
+		1841551A1D546AE200086370 /* TrainticketInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 184155191D546AE200086370 /* TrainticketInformation.m */; };
+		1841551D1D546B3400086370 /* FlightInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1841551C1D546B3400086370 /* FlightInformation.m */; };
+		184155201D547F0E00086370 /* FlightInforMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1841551F1D547F0E00086370 /* FlightInforMainController.m */; };
+		184155231D547F2800086370 /* TrainTicketInforMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184155221D547F2800086370 /* TrainTicketInforMainController.m */; };
+		1841A2A61D488B3C00DECE2F /* UserReserveHotelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1841A2A51D488B3C00DECE2F /* UserReserveHotelViewController.m */; };
+		1841A2A91D48A43700DECE2F /* AppDelegate+ServeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1841A2A81D48A43700DECE2F /* AppDelegate+ServeOperation.m */; };
+		184313091D5B0D5B00BF072F /* WriteOutFlightOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184313081D5B0D5B00BF072F /* WriteOutFlightOrderController.m */; };
+		1843130C1D5B22B100BF072F /* RCStandardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843130B1D5B22B100BF072F /* RCStandardController.m */; };
+		1843130F1D5B2B7A00BF072F /* HTTPClient+TrainTickeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843130E1D5B2B7A00BF072F /* HTTPClient+TrainTickeRequest.m */; };
+		1843AA7B1D6A93A500EEF980 /* u1002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1843AA7A1D6A93A500EEF980 /* u1002.jpg */; };
+		1843AA811D6AC47400EEF980 /* homeFlightImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1843AA7D1D6AC47400EEF980 /* homeFlightImage.jpg */; };
+		1843AA821D6AC47400EEF980 /* homeHotelImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1843AA7E1D6AC47400EEF980 /* homeHotelImage.jpg */; };
+		1843AA831D6AC47400EEF980 /* homeImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1843AA7F1D6AC47400EEF980 /* homeImage.jpg */; };
+		1843AA841D6AC47400EEF980 /* homeTrainTicketImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1843AA801D6AC47400EEF980 /* homeTrainTicketImage.jpg */; };
+		1843AA871D6AF59200EEF980 /* HotelRoomDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843AA861D6AF59200EEF980 /* HotelRoomDetailView.m */; };
+		1846F5951D66DED000B3125F /* SelectedUserInforViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846F5941D66DED000B3125F /* SelectedUserInforViewController.m */; };
+		1846F5981D66E00100B3125F /* SelectedUserInforTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846F5971D66E00100B3125F /* SelectedUserInforTableViewCell.m */; };
+		184A245E1D2E56D000531065 /* SetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A245D1D2E56D000531065 /* SetPasswordViewController.m */; };
+		184A24621D2F768700531065 /* XCAPPUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A24611D2F768700531065 /* XCAPPUITextField.m */; };
+		184EC4641D3E23C400DDA755 /* HotelAtCitySearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184EC4631D3E23C400DDA755 /* HotelAtCitySearchController.m */; };
+		184EC4671D3E23F800DDA755 /* HotelMoveIntoDateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184EC4661D3E23F800DDA755 /* HotelMoveIntoDateController.m */; };
+		185806C11D6EBE8E002FCE96 /* hotelIcon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 185806BB1D6EBE8E002FCE96 /* hotelIcon1.png */; };
+		185806C21D6EBE8E002FCE96 /* hotelIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 185806BC1D6EBE8E002FCE96 /* hotelIcon2.png */; };
+		185806C31D6EBE8E002FCE96 /* hotelIcon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 185806BD1D6EBE8E002FCE96 /* hotelIcon3.png */; };
+		185806C41D6EBE8E002FCE96 /* hotelIcon4.png in Resources */ = {isa = PBXBuildFile; fileRef = 185806BE1D6EBE8E002FCE96 /* hotelIcon4.png */; };
+		185806C51D6EBE8E002FCE96 /* hotelIcon5.png in Resources */ = {isa = PBXBuildFile; fileRef = 185806BF1D6EBE8E002FCE96 /* hotelIcon5.png */; };
+		185806C61D6EBE8E002FCE96 /* hotelIcon6.png in Resources */ = {isa = PBXBuildFile; fileRef = 185806C01D6EBE8E002FCE96 /* hotelIcon6.png */; };
+		185B5C721D1B7D730006CD07 /* XCAPPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B5C711D1B7D730006CD07 /* XCAPPNavigationController.m */; };
+		185B5C751D1B7D900006CD07 /* XCAPPUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B5C741D1B7D900006CD07 /* XCAPPUIViewController.m */; };
+		185B5C891D1B82B00006CD07 /* XCAPPFunctionsInfor.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B5C881D1B82B00006CD07 /* XCAPPFunctionsInfor.m */; };
+		185B5C911D1B8AA30006CD07 /* HomeMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B5C901D1B8AA30006CD07 /* HomeMainViewController.m */; };
+		185B5C941D1B8ABA0006CD07 /* AuthorizeMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B5C931D1B8ABA0006CD07 /* AuthorizeMainViewController.m */; };
+		185B5C971D1B8ACC0006CD07 /* ItineraryMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B5C961D1B8ACC0006CD07 /* ItineraryMainViewController.m */; };
+		185B5C9A1D1B8ADF0006CD07 /* PersonalInforViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B5C991D1B8ADF0006CD07 /* PersonalInforViewController.m */; };
+		185B5C9D1D1B8B240006CD07 /* XCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B5C9C1D1B8B240006CD07 /* XCTabBarController.m */; };
+		185CC69F1D215B4100417D56 /* XCCurrentUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 185CC69E1D215B4100417D56 /* XCCurrentUserInfo.m */; };
+		185CC6A31D215B9500417D56 /* XCFMSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 185CC6A21D215B9500417D56 /* XCFMSettings.m */; };
+		185DE7541D22533F00DDC5FC /* UserInformationClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 185DE7531D22533F00DDC5FC /* UserInformationClass.m */; };
+		186551D21DBF34FA008E2192 /* nr_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 186551D11DBF34FA008E2192 /* nr_selected.png */; };
+		186551D41DBF3DFD008E2192 /* userRightCloseImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 186551D31DBF3DFD008E2192 /* userRightCloseImageView.png */; };
+		186551D71DBF6EE8008E2192 /* TrainTicketOrderDetailInforView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186551D61DBF6EE8008E2192 /* TrainTicketOrderDetailInforView.m */; };
+		18685FC31D7D418D00EC320C /* OrderMenuSelectedBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18685FC21D7D418D00EC320C /* OrderMenuSelectedBGView.m */; };
+		186E9CBD1D260FB3007B6540 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186E9CBC1D260FB3007B6540 /* SystemConfiguration.framework */; };
+		18744C9C1D70501700A99F24 /* homeTaxiImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 18744C9B1D70501700A99F24 /* homeTaxiImage.png */; };
+		18745F1D1D227DC900731F7D /* HotelMainListInforViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18745F1C1D227DC900731F7D /* HotelMainListInforViewController.m */; };
+		18745F201D227E3600731F7D /* XCBaseUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18745F1F1D227E3600731F7D /* XCBaseUITableViewCell.m */; };
+		18745F231D227FCA00731F7D /* HotelInforTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18745F221D227FCA00731F7D /* HotelInforTableViewCell.m */; };
+		18745F271D22803A00731F7D /* HotelInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18745F261D22803A00731F7D /* HotelInformation.m */; };
+		1875BF861DC04F190030C863 /* HotelReserveOrderDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875BF851DC04F190030C863 /* HotelReserveOrderDetailView.m */; };
+		1875BF8E1DC0A4A70030C863 /* hotelParkImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1875BF8C1DC0A4A70030C863 /* hotelParkImage.jpg */; };
+		1875BF8F1DC0A4A70030C863 /* hotelWifiImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1875BF8D1DC0A4A70030C863 /* hotelWifiImage.jpg */; };
+		187AA6F81D8285A0002E0C18 /* FlightOrderInfoDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AA6F71D8285A0002E0C18 /* FlightOrderInfoDetailController.m */; };
+		187AA6FB1D828666002E0C18 /* TrainticketOrderInforController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AA6FA1D828666002E0C18 /* TrainticketOrderInforController.m */; };
+		187C8DB41D6D920C00A8A628 /* ReviseMoveIntoDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C8DB31D6D920C00A8A628 /* ReviseMoveIntoDateView.m */; };
+		188009BA1D2A630F00822B43 /* UserHotelOrderInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 188009B91D2A630F00822B43 /* UserHotelOrderInformation.m */; };
+		1882709C1D8684B500907CAE /* TrainTicketSearchListLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1882709B1D8684B500907CAE /* TrainTicketSearchListLayerView.m */; };
+		1889A1891D548EDD008E5CBF /* TrainTicketListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889A1881D548EDD008E5CBF /* TrainTicketListViewController.m */; };
+		1889A1911D54951F008E5CBF /* RelatedCNTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889A1901D54951F008E5CBF /* RelatedCNTViewController.m */; };
+		1889A1941D549642008E5CBF /* SetupInforForTrainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889A1931D549642008E5CBF /* SetupInforForTrainViewController.m */; };
+		1889A1971D5499F4008E5CBF /* AddTrainTicketUserInforController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889A1961D5499F4008E5CBF /* AddTrainTicketUserInforController.m */; };
+		1889A19B1D54A076008E5CBF /* InvoiceInforViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889A19A1D54A076008E5CBF /* InvoiceInforViewController.m */; };
+		1889A19E1D54A0BA008E5CBF /* CreditCardInforController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889A19D1D54A0BA008E5CBF /* CreditCardInforController.m */; };
+		188D745E1D212C0500884933 /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D745D1D212C0500884933 /* SetupViewController.m */; };
+		18924E381D26687E0097188C /* HotelSearcSetupBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18924E371D26687E0097188C /* HotelSearcSetupBottomView.m */; };
+		1892AD6C1DC1A92C00E4ADDF /* TrainTicketReturnController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892AD6B1DC1A92C00E4ADDF /* TrainTicketReturnController.m */; };
+		189932111DFFDFF2002701FF /* UIUserOperationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 189932101DFFDFF2002701FF /* UIUserOperationButton.m */; };
+		18ADA59D1D20C5BD003188A4 /* AppDelegate+AppDelegateExpandVendor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ADA59C1D20C5BD003188A4 /* AppDelegate+AppDelegateExpandVendor.m */; };
+		18ADA59F1D20C6BF003188A4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ADA59E1D20C6BF003188A4 /* CoreTelephony.framework */; };
+		18ADA5A11D20C6D2003188A4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ADA5A01D20C6D2003188A4 /* libz.tbd */; };
+		18ADA5A41D20C716003188A4 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ADA5A31D20C716003188A4 /* libsqlite3.tbd */; };
+		18ADA5A71D20C774003188A4 /* UMMobClick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ADA5A61D20C774003188A4 /* UMMobClick.framework */; };
+		18ADA5A91D20C7B0003188A4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ADA5A81D20C7B0003188A4 /* Security.framework */; };
+		18ADD0A61DB6033E00AA8216 /* userDeleteImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ADD0A51DB6033E00AA8216 /* userDeleteImage.png */; };
+		18ADD0A91DB6246300AA8216 /* UITableViewHotelRoomHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ADD0A81DB6246300AA8216 /* UITableViewHotelRoomHeaderView.m */; };
+		18B073521D33760500A8C6EC /* WorkerManageSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B073511D33760500A8C6EC /* WorkerManageSettingController.m */; };
+		18B073551D33766B00A8C6EC /* AddNewWorkerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B073541D33766B00A8C6EC /* AddNewWorkerViewController.m */; };
+		18B32ADE1D9EA24E007A17E4 /* HTTPClient+FlightInforRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B32ADD1D9EA24E007A17E4 /* HTTPClient+FlightInforRequest.m */; };
+		18CF5DB01D23D06A00E00E09 /* XCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF5DAF1D23D06A00E00E09 /* XCLocationManager.m */; };
+		18D1FFE41D6567F600B28F88 /* RTArealocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1FFE31D6567F600B28F88 /* RTArealocationView.m */; };
+		18D1FFEA1D65B5A100B28F88 /* PaySuccessfulViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1FFE91D65B5A100B28F88 /* PaySuccessfulViewController.m */; };
+		18D1FFED1D65B5E400B28F88 /* PayFailureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1FFEC1D65B5E400B28F88 /* PayFailureViewController.m */; };
+		18D1FFF31D65B73500B28F88 /* UserPersonalOrderInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1FFF21D65B73500B28F88 /* UserPersonalOrderInformation.m */; };
+		18D1FFF61D661CA900B28F88 /* WorkerManageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1FFF51D661CA900B28F88 /* WorkerManageTableViewCell.m */; };
+		18D3202E1D98C1250015EED4 /* TrainTicketAllSiftConditionLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3202D1D98C1250015EED4 /* TrainTicketAllSiftConditionLayerView.m */; };
+		18D52DCE1D3CAA2000026E78 /* UserLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D52DCD1D3CAA2000026E78 /* UserLoginViewController.m */; };
+		18D52DD11D3CAAA000026E78 /* UserReSetPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D52DD01D3CAAA000026E78 /* UserReSetPwdViewController.m */; };
+		18D52DD41D3CAADD00026E78 /* ForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D52DD31D3CAADD00026E78 /* ForgetPasswordViewController.m */; };
+		18D52DD71D3CAB2B00026E78 /* ForgetGetVerCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D52DD61D3CAB2B00026E78 /* ForgetGetVerCodeController.m */; };
+		18D52DDA1D3CAB6F00026E78 /* ForgetResetPwdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D52DD91D3CAB6F00026E78 /* ForgetResetPwdController.m */; };
+		18DBD5EA1D24FB5500A2FD7F /* FMImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18DBD5DD1D24FB5500A2FD7F /* FMImage.bundle */; };
+		18DBD5EB1D24FB5500A2FD7F /* FMImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD5DF1D24FB5500A2FD7F /* FMImageModel.m */; };
+		18DBD5EC1D24FB5500A2FD7F /* FMImageToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD5E11D24FB5500A2FD7F /* FMImageToolbar.m */; };
+		18DBD5ED1D24FB5500A2FD7F /* FMImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD5E31D24FB5500A2FD7F /* FMImageView.m */; };
+		18DBD5EE1D24FB5500A2FD7F /* ImageBrowse.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD5E51D24FB5500A2FD7F /* ImageBrowse.m */; };
+		18DBD5EF1D24FB5500A2FD7F /* ImageContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD5E71D24FB5500A2FD7F /* ImageContentScrollView.m */; };
+		18DBD5F01D24FB5500A2FD7F /* LoadProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD5E91D24FB5500A2FD7F /* LoadProgressView.m */; };
+		18DBD60B1D24FB7F00A2FD7F /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD5F31D24FB7F00A2FD7F /* NSData+ImageContentType.m */; };
+		18DBD60C1D24FB7F00A2FD7F /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD5F51D24FB7F00A2FD7F /* SDImageCache.m */; };
+		18DBD60D1D24FB7F00A2FD7F /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD5F71D24FB7F00A2FD7F /* SDWebImageCompat.m */; };
+		18DBD60E1D24FB7F00A2FD7F /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD5F91D24FB7F00A2FD7F /* SDWebImageDecoder.m */; };
+		18DBD60F1D24FB7F00A2FD7F /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD5FB1D24FB7F00A2FD7F /* SDWebImageDownloader.m */; };
+		18DBD6101D24FB7F00A2FD7F /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD5FD1D24FB7F00A2FD7F /* SDWebImageDownloaderOperation.m */; };
+		18DBD6111D24FB7F00A2FD7F /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD5FF1D24FB7F00A2FD7F /* SDWebImageManager.m */; };
+		18DBD6121D24FB7F00A2FD7F /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD6021D24FB7F00A2FD7F /* SDWebImagePrefetcher.m */; };
+		18DBD6131D24FB7F00A2FD7F /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD6041D24FB7F00A2FD7F /* UIButton+WebCache.m */; };
+		18DBD6141D24FB7F00A2FD7F /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD6061D24FB7F00A2FD7F /* UIImage+GIF.m */; };
+		18DBD6151D24FB7F00A2FD7F /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD6081D24FB7F00A2FD7F /* UIImage+MultiFormat.m */; };
+		18DBD6161D24FB7F00A2FD7F /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD60A1D24FB7F00A2FD7F /* UIImageView+WebCache.m */; };
+		18DBD61C1D24FC1E00A2FD7F /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD6191D24FC1E00A2FD7F /* MBProgressHUD+Add.m */; };
+		18DBD61D1D24FC1E00A2FD7F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD61B1D24FC1E00A2FD7F /* MBProgressHUD.m */; };
+		18DBD6201D25019100A2FD7F /* BusinessTravelExplainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD61F1D25019100A2FD7F /* BusinessTravelExplainController.m */; };
+		18DBD6231D25227F00A2FD7F /* HotelDetailMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBD6221D25227F00A2FD7F /* HotelDetailMainViewController.m */; };
+		18E157731D2BA223001C8B0B /* LocationOrNameSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E157721D2BA223001C8B0B /* LocationOrNameSearchController.m */; };
+		18EDB7671DAE372100E21744 /* FromToImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EDB7661DAE372100E21744 /* FromToImage.png */; };
+		18EEB2A91D20FAD3008D3580 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB2961D20FAD3008D3580 /* AFHTTPClient.m */; };
+		18EEB2AA1D20FAD3008D3580 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB2981D20FAD3008D3580 /* AFHTTPRequestOperation.m */; };
+		18EEB2AB1D20FAD3008D3580 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB29A1D20FAD3008D3580 /* AFImageRequestOperation.m */; };
+		18EEB2AC1D20FAD3008D3580 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB29C1D20FAD3008D3580 /* AFJSONRequestOperation.m */; };
+		18EEB2AD1D20FAD3008D3580 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB29E1D20FAD3008D3580 /* AFNetworkActivityIndicatorManager.m */; };
+		18EEB2AE1D20FAD3008D3580 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB2A11D20FAD3008D3580 /* AFPropertyListRequestOperation.m */; };
+		18EEB2AF1D20FAD3008D3580 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB2A31D20FAD3008D3580 /* AFURLConnectionOperation.m */; };
+		18EEB2B01D20FAD3008D3580 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB2A51D20FAD3008D3580 /* AFXMLRequestOperation.m */; };
+		18EEB2B11D20FAD3008D3580 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB2A71D20FAD3008D3580 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18EEB2B61D20FC39008D3580 /* WebAPIResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB2B51D20FC39008D3580 /* WebAPIResponse.m */; };
+		18EEB2B91D20FD51008D3580 /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB2B81D20FD51008D3580 /* HTTPClient.m */; };
+		18EEB2BC1D20FEB9008D3580 /* HTTPClient+PersonalInfor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB2BB1D20FEB9008D3580 /* HTTPClient+PersonalInfor.m */; };
+		18F391E31D5832A700EB7B57 /* TrainPassStationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F391E21D5832A700EB7B57 /* TrainPassStationController.m */; };
+		18F391E61D5834E500EB7B57 /* ReturnedMoneyInstructionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F391E51D5834E500EB7B57 /* ReturnedMoneyInstructionsController.m */; };
+		18F391E91D59713E00EB7B57 /* FlightMainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F391E81D59713E00EB7B57 /* FlightMainListViewController.m */; };
+		18F391EC1D59717000EB7B57 /* FlightOrderInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F391EB1D59717000EB7B57 /* FlightOrderInformation.m */; };
+		18F391EF1D59CCA000EB7B57 /* UITableViewFlightHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F391EE1D59CCA000EB7B57 /* UITableViewFlightHeaderView.m */; };
+		18F391F21D59CCE700EB7B57 /* FlightNumberTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F391F11D59CCE700EB7B57 /* FlightNumberTableViewCell.m */; };
+		18F5BCE81D2949A600C97386 /* MoreSiftRequirementController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F5BCE71D2949A600C97386 /* MoreSiftRequirementController.m */; };
+		18F5BCEC1D29579200C97386 /* HotelPersonalCollectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F5BCEB1D29579200C97386 /* HotelPersonalCollectController.m */; };
+		18F6A9311D55B39300083120 /* TrainticketOrderInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6A9301D55B39300083120 /* TrainticketOrderInformation.m */; };
+		18F6A9341D55B69B00083120 /* TrainTicketTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6A9331D55B69B00083120 /* TrainTicketTableHeaderView.m */; };
+		18F6A9371D55B7BB00083120 /* TrainTicketTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6A9361D55B7BB00083120 /* TrainTicketTableViewCell.m */; };
+		18F6A9631D5732FA00083120 /* FillTrainTicketOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6A9621D5732FA00083120 /* FillTrainTicketOrderViewController.m */; };
+		18F6A9661D57331800083120 /* FillTrainTicketOrderSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6A9651D57331800083120 /* FillTrainTicketOrderSecondController.m */; };
+		18F6A9691D57335300083120 /* CheckTrainOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6A9681D57335300083120 /* CheckTrainOrderController.m */; };
 		18FA1A5E1D1ADA1000FEEE61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA1A5D1D1ADA1000FEEE61 /* main.m */; };
 		18FA1A611D1ADA1000FEEE61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA1A601D1ADA1000FEEE61 /* AppDelegate.m */; };
 		18FA1A641D1ADA1000FEEE61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA1A631D1ADA1000FEEE61 /* ViewController.m */; };
-		18FA1A671D1ADA1000FEEE61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FA1A651D1ADA1000FEEE61 /* Main.storyboard */; };
-		18FA1A691D1ADA1000FEEE61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FA1A681D1ADA1000FEEE61 /* Assets.xcassets */; };
-		18FA1A6C1D1ADA1000FEEE61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FA1A6A1D1ADA1000FEEE61 /* LaunchScreen.storyboard */; };
+		18FA1A751D1ADB8B00FEEE61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FA1A741D1ADB8B00FEEE61 /* Images.xcassets */; };
+		18FA1A7F1D1ADFFC00FEEE61 /* DataPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA1A7D1D1ADFFC00FEEE61 /* DataPage.m */; };
+		18FA1A931D1AE58100FEEE61 /* UIButton+Bootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA1A881D1AE58100FEEE61 /* UIButton+Bootstrap.m */; };
+		18FA1A941D1AE58100FEEE61 /* FAImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA1A8B1D1AE58100FEEE61 /* FAImageView.m */; };
+		18FA1A951D1AE58100FEEE61 /* FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA1A8D1D1AE58100FEEE61 /* FontAwesome.m */; };
+		18FA1A961D1AE58100FEEE61 /* LvyeFontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18FA1A8E1D1AE58100FEEE61 /* LvyeFontAwesome.ttf */; };
+		18FA1A971D1AE58100FEEE61 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA1A901D1AE58100FEEE61 /* NSString+FontAwesome.m */; };
+		18FA1A981D1AE58100FEEE61 /* UIFont+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA1A921D1AE58100FEEE61 /* UIFont+FontAwesome.m */; };
+		18FA1AA81D1AE63500FEEE61 /* HUIKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA1A9C1D1AE63500FEEE61 /* HUIKeyboard.m */; };
+		18FA1AA91D1AE63500FEEE61 /* HUILoadMoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA1A9F1D1AE63500FEEE61 /* HUILoadMoreCell.m */; };
+		18FA1AAA1D1AE63500FEEE61 /* HUILocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA1AA11D1AE63500FEEE61 /* HUILocationManager.m */; };
+		18FA1AAB1D1AE63500FEEE61 /* NSDateFormatter+HUIAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA1AA31D1AE63500FEEE61 /* NSDateFormatter+HUIAddition.m */; };
+		18FA1AAC1D1AE63500FEEE61 /* UIDevice+HUIAddtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA1AA51D1AE63500FEEE61 /* UIDevice+HUIAddtion.m */; };
+		18FA1AAD1D1AE63500FEEE61 /* UIScreen+HUIAddtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA1AA71D1AE63500FEEE61 /* UIScreen+HUIAddtion.m */; };
+		18FA1ACF1D1AE6B900FEEE61 /* NSDate+TimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA1AC41D1AE6B900FEEE61 /* NSDate+TimeAgo.m */; };
+		18FA1AD01D1AE6B900FEEE61 /* NSDate+TimeAgo.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 18FA1AC51D1AE6B900FEEE61 /* NSDate+TimeAgo.podspec */; };
+		18FA1AD21D1AE6B900FEEE61 /* NSDateTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18FA1AC81D1AE6B900FEEE61 /* NSDateTimeAgo.bundle */; };
+		18FA1AD31D1AE6B900FEEE61 /* UIColor+RCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA1ACA1D1AE6B900FEEE61 /* UIColor+RCColor.m */; };
+		18FA1AD41D1AE6B900FEEE61 /* UIImage+RCImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA1ACC1D1AE6B900FEEE61 /* UIImage+RCImage.m */; };
+		18FA1AD51D1AE6B900FEEE61 /* UIView+ViewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FA1ACE1D1AE6B900FEEE61 /* UIView+ViewCategory.m */; };
+		18FC5CEC1DB4D901006C3B5D /* OrderExpenseTrainTicketDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC5CEB1DB4D901006C3B5D /* OrderExpenseTrainTicketDetailView.m */; };
+		18FE69AC1D697F0D003FC66E /* HotelDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE69AB1D697F0D003FC66E /* HotelDetailTableViewCell.m */; };
+		18FE69AF1D69831A003FC66E /* HotelDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE69AE1D69831A003FC66E /* HotelDetailHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18085C511D87A0F800B81FFB /* TrainTicketSeatSelectedLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainTicketSeatSelectedLayerView.h; sourceTree = "<group>"; };
+		18085C521D87A0F800B81FFB /* TrainTicketSeatSelectedLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainTicketSeatSelectedLayerView.m; sourceTree = "<group>"; };
+		18085C541D8808B900B81FFB /* OrderImmediatePayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderImmediatePayViewController.h; sourceTree = "<group>"; };
+		18085C551D8808B900B81FFB /* OrderImmediatePayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderImmediatePayViewController.m; sourceTree = "<group>"; };
+		180C2FB71D33D97B004DC1A0 /* PerOrderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerOrderListViewController.h; sourceTree = "<group>"; };
+		180C2FB81D33D97B004DC1A0 /* PerOrderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerOrderListViewController.m; sourceTree = "<group>"; };
+		180C2FBA1D33D998004DC1A0 /* PerOrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerOrderTableViewCell.h; sourceTree = "<group>"; };
+		180C2FBB1D33D998004DC1A0 /* PerOrderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerOrderTableViewCell.m; sourceTree = "<group>"; };
+		180C2FC01D33DF5D004DC1A0 /* OrderExpenseDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderExpenseDetailView.h; sourceTree = "<group>"; };
+		180C2FC11D33DF5D004DC1A0 /* OrderExpenseDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderExpenseDetailView.m; sourceTree = "<group>"; };
+		180C2FC31D348D53004DC1A0 /* AddMoveIntoPersonnelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMoveIntoPersonnelViewController.h; sourceTree = "<group>"; };
+		180C2FC41D348D53004DC1A0 /* AddMoveIntoPersonnelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMoveIntoPersonnelViewController.m; sourceTree = "<group>"; };
+		1815DA031D23AAA700F86073 /* HTTPClient+HotelsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HTTPClient+HotelsRequest.h"; sourceTree = "<group>"; };
+		1815DA041D23AAA700F86073 /* HTTPClient+HotelsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HTTPClient+HotelsRequest.m"; sourceTree = "<group>"; };
+		1815DA071D23ADA800F86073 /* SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPullToRefresh.h; sourceTree = "<group>"; };
+		1815DA081D23ADA800F86073 /* UIScrollView+SVInfiniteScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVInfiniteScrolling.h"; sourceTree = "<group>"; };
+		1815DA091D23ADA800F86073 /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
+		1815DA0A1D23ADA800F86073 /* UIScrollView+SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVPullToRefresh.h"; sourceTree = "<group>"; };
+		1815DA0B1D23ADA800F86073 /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVPullToRefresh.m"; sourceTree = "<group>"; };
+		1815DA0E1D23CB1100F86073 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1815DA101D23CB1A00F86073 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		181AFD571D35E58100F2B844 /* HTTPClient+OrderRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HTTPClient+OrderRequest.h"; sourceTree = "<group>"; };
+		181AFD581D35E58100F2B844 /* HTTPClient+OrderRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HTTPClient+OrderRequest.m"; sourceTree = "<group>"; };
+		181AFD601D360FC300F2B844 /* DefaultotelRecommendSearchLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultotelRecommendSearchLayerView.h; sourceTree = "<group>"; };
+		181AFD611D360FC300F2B844 /* DefaultotelRecommendSearchLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultotelRecommendSearchLayerView.m; sourceTree = "<group>"; };
+		181AFD631D36112B00F2B844 /* PriceStarSearchLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriceStarSearchLayerView.h; sourceTree = "<group>"; };
+		181AFD641D36112B00F2B844 /* PriceStarSearchLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriceStarSearchLayerView.m; sourceTree = "<group>"; };
+		181AFD671D36368500F2B844 /* HotelMapAddressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelMapAddressController.h; sourceTree = "<group>"; };
+		181AFD681D36368500F2B844 /* HotelMapAddressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelMapAddressController.m; sourceTree = "<group>"; };
+		181AFD6D1D3636AA00F2B844 /* HotelIntroduceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelIntroduceController.h; sourceTree = "<group>"; };
+		181AFD6E1D3636AA00F2B844 /* HotelIntroduceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelIntroduceController.m; sourceTree = "<group>"; };
+		181AFD701D36370400F2B844 /* HotelCommentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelCommentController.h; sourceTree = "<group>"; };
+		181AFD711D36370400F2B844 /* HotelCommentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelCommentController.m; sourceTree = "<group>"; };
+		181AFD731D36432700F2B844 /* HotelReserveMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelReserveMainViewController.h; sourceTree = "<group>"; };
+		181AFD741D36432700F2B844 /* HotelReserveMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelReserveMainViewController.m; sourceTree = "<group>"; };
+		182109D01D9B975C00D86E4B /* HotelOrderInfoDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelOrderInfoDetailController.h; sourceTree = "<group>"; };
+		182109D11D9B975C00D86E4B /* HotelOrderInfoDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelOrderInfoDetailController.m; sourceTree = "<group>"; };
+		1825FF961DB746D30021B570 /* HotelReserveTenantInforController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelReserveTenantInforController.h; sourceTree = "<group>"; };
+		1825FF971DB746D30021B570 /* HotelReserveTenantInforController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelReserveTenantInforController.m; sourceTree = "<group>"; };
+		1825FF991DB74CDE0021B570 /* HotelReserveTenantInforTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelReserveTenantInforTableCell.h; sourceTree = "<group>"; };
+		1825FF9A1DB74CDE0021B570 /* HotelReserveTenantInforTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelReserveTenantInforTableCell.m; sourceTree = "<group>"; };
+		18290F6B1D2CF4610094D35C /* BundlePhoneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundlePhoneController.h; sourceTree = "<group>"; };
+		18290F6C1D2CF4610094D35C /* BundlePhoneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundlePhoneController.m; sourceTree = "<group>"; };
+		18290F6E1D2CF4740094D35C /* BundlePhoneFinishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundlePhoneFinishViewController.h; sourceTree = "<group>"; };
+		18290F6F1D2CF4740094D35C /* BundlePhoneFinishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundlePhoneFinishViewController.m; sourceTree = "<group>"; };
+		182E19C21F298565004FAF3E /* BabyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyInfo.h; sourceTree = "<group>"; };
+		182E19C31F298565004FAF3E /* BabyInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyInfo.m; sourceTree = "<group>"; };
+		18301FED1DB8AFB6007B94B9 /* MoreSiftRequirementAreaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreSiftRequirementAreaTableViewCell.h; sourceTree = "<group>"; };
+		18301FEE1DB8AFB6007B94B9 /* MoreSiftRequirementAreaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreSiftRequirementAreaTableViewCell.m; sourceTree = "<group>"; };
+		183989251D64072E007CF4B6 /* CalendarDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDayCell.h; sourceTree = "<group>"; };
+		183989261D64072E007CF4B6 /* CalendarDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDayCell.m; sourceTree = "<group>"; };
+		183989271D64072E007CF4B6 /* CalendarDayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDayModel.h; sourceTree = "<group>"; };
+		183989281D64072E007CF4B6 /* CalendarDayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDayModel.m; sourceTree = "<group>"; };
+		183989291D64072E007CF4B6 /* CalendarHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarHomeViewController.h; sourceTree = "<group>"; };
+		1839892A1D64072E007CF4B6 /* CalendarHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarHomeViewController.m; sourceTree = "<group>"; };
+		1839892B1D64072E007CF4B6 /* CalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarLogic.h; sourceTree = "<group>"; };
+		1839892C1D64072E007CF4B6 /* CalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarLogic.m; sourceTree = "<group>"; };
+		1839892D1D64072E007CF4B6 /* CalendarMonthCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMonthCollectionViewLayout.h; sourceTree = "<group>"; };
+		1839892E1D64072E007CF4B6 /* CalendarMonthCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMonthCollectionViewLayout.m; sourceTree = "<group>"; };
+		1839892F1D64072E007CF4B6 /* CalendarMonthHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMonthHeaderView.h; sourceTree = "<group>"; };
+		183989301D64072E007CF4B6 /* CalendarMonthHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMonthHeaderView.m; sourceTree = "<group>"; };
+		183989311D64072E007CF4B6 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		183989321D64072E007CF4B6 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		183989331D64072E007CF4B6 /* chack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chack.png; sourceTree = "<group>"; };
+		183989341D64072E007CF4B6 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		183989351D64072E007CF4B6 /* NSDate+WQCalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WQCalendarLogic.h"; sourceTree = "<group>"; };
+		183989361D64072E007CF4B6 /* NSDate+WQCalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WQCalendarLogic.m"; sourceTree = "<group>"; };
+		183989411D640BBD007CF4B6 /* CityInforViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityInforViewController.h; sourceTree = "<group>"; };
+		183989421D640BBD007CF4B6 /* CityInforViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityInforViewController.m; sourceTree = "<group>"; };
+		183C473D1D2107240084693D /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
+		183C473E1D2107240084693D /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
+		183EC8DC1D92379A00BF7659 /* CityInforForTrainTicketController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityInforForTrainTicketController.h; sourceTree = "<group>"; };
+		183EC8DD1D92379A00BF7659 /* CityInforForTrainTicketController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityInforForTrainTicketController.m; sourceTree = "<group>"; };
+		183EC8DF1D928A2600BF7659 /* CityInforForTrainTicketTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityInforForTrainTicketTableViewCell.h; sourceTree = "<group>"; };
+		183EC8E01D928A2600BF7659 /* CityInforForTrainTicketTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityInforForTrainTicketTableViewCell.m; sourceTree = "<group>"; };
+		183F22561D5A03690002AEA5 /* ASLocalSetupSystemNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASLocalSetupSystemNotification.h; sourceTree = "<group>"; };
+		183F22571D5A03690002AEA5 /* ASLocalSetupSystemNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASLocalSetupSystemNotification.m; sourceTree = "<group>"; };
+		1840CCE71D630C11009D780A /* FlightSearchListLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightSearchListLayerView.h; sourceTree = "<group>"; };
+		1840CCE81D630C11009D780A /* FlightSearchListLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightSearchListLayerView.m; sourceTree = "<group>"; };
+		1840CCEA1D631C3D009D780A /* FlightAccurateSiftController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightAccurateSiftController.h; sourceTree = "<group>"; };
+		1840CCEB1D631C3D009D780A /* FlightAccurateSiftController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightAccurateSiftController.m; sourceTree = "<group>"; };
+		184155181D546AE200086370 /* TrainticketInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainticketInformation.h; sourceTree = "<group>"; };
+		184155191D546AE200086370 /* TrainticketInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainticketInformation.m; sourceTree = "<group>"; };
+		1841551B1D546B3400086370 /* FlightInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightInformation.h; sourceTree = "<group>"; };
+		1841551C1D546B3400086370 /* FlightInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightInformation.m; sourceTree = "<group>"; };
+		1841551E1D547F0E00086370 /* FlightInforMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightInforMainController.h; sourceTree = "<group>"; };
+		1841551F1D547F0E00086370 /* FlightInforMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightInforMainController.m; sourceTree = "<group>"; };
+		184155211D547F2800086370 /* TrainTicketInforMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainTicketInforMainController.h; sourceTree = "<group>"; };
+		184155221D547F2800086370 /* TrainTicketInforMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainTicketInforMainController.m; sourceTree = "<group>"; };
+		1841A2A41D488B3C00DECE2F /* UserReserveHotelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserReserveHotelViewController.h; sourceTree = "<group>"; };
+		1841A2A51D488B3C00DECE2F /* UserReserveHotelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserReserveHotelViewController.m; sourceTree = "<group>"; };
+		1841A2A71D48A43700DECE2F /* AppDelegate+ServeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+ServeOperation.h"; sourceTree = "<group>"; };
+		1841A2A81D48A43700DECE2F /* AppDelegate+ServeOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+ServeOperation.m"; sourceTree = "<group>"; };
+		184313071D5B0D5B00BF072F /* WriteOutFlightOrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteOutFlightOrderController.h; sourceTree = "<group>"; };
+		184313081D5B0D5B00BF072F /* WriteOutFlightOrderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteOutFlightOrderController.m; sourceTree = "<group>"; };
+		1843130A1D5B22B100BF072F /* RCStandardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCStandardController.h; sourceTree = "<group>"; };
+		1843130B1D5B22B100BF072F /* RCStandardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCStandardController.m; sourceTree = "<group>"; };
+		1843130D1D5B2B7A00BF072F /* HTTPClient+TrainTickeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HTTPClient+TrainTickeRequest.h"; sourceTree = "<group>"; };
+		1843130E1D5B2B7A00BF072F /* HTTPClient+TrainTickeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HTTPClient+TrainTickeRequest.m"; sourceTree = "<group>"; };
+		1843AA7A1D6A93A500EEF980 /* u1002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = u1002.jpg; sourceTree = "<group>"; };
+		1843AA7D1D6AC47400EEF980 /* homeFlightImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homeFlightImage.jpg; sourceTree = "<group>"; };
+		1843AA7E1D6AC47400EEF980 /* homeHotelImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homeHotelImage.jpg; sourceTree = "<group>"; };
+		1843AA7F1D6AC47400EEF980 /* homeImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homeImage.jpg; sourceTree = "<group>"; };
+		1843AA801D6AC47400EEF980 /* homeTrainTicketImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homeTrainTicketImage.jpg; sourceTree = "<group>"; };
+		1843AA851D6AF59200EEF980 /* HotelRoomDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelRoomDetailView.h; sourceTree = "<group>"; };
+		1843AA861D6AF59200EEF980 /* HotelRoomDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelRoomDetailView.m; sourceTree = "<group>"; };
+		1846F5931D66DED000B3125F /* SelectedUserInforViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedUserInforViewController.h; sourceTree = "<group>"; };
+		1846F5941D66DED000B3125F /* SelectedUserInforViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedUserInforViewController.m; sourceTree = "<group>"; };
+		1846F5961D66E00100B3125F /* SelectedUserInforTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedUserInforTableViewCell.h; sourceTree = "<group>"; };
+		1846F5971D66E00100B3125F /* SelectedUserInforTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedUserInforTableViewCell.m; sourceTree = "<group>"; };
+		184A245C1D2E56D000531065 /* SetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetPasswordViewController.h; sourceTree = "<group>"; };
+		184A245D1D2E56D000531065 /* SetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetPasswordViewController.m; sourceTree = "<group>"; };
+		184A24601D2F768700531065 /* XCAPPUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAPPUITextField.h; sourceTree = "<group>"; };
+		184A24611D2F768700531065 /* XCAPPUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCAPPUITextField.m; sourceTree = "<group>"; };
+		184EC4621D3E23C400DDA755 /* HotelAtCitySearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelAtCitySearchController.h; sourceTree = "<group>"; };
+		184EC4631D3E23C400DDA755 /* HotelAtCitySearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelAtCitySearchController.m; sourceTree = "<group>"; };
+		184EC4651D3E23F800DDA755 /* HotelMoveIntoDateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelMoveIntoDateController.h; sourceTree = "<group>"; };
+		184EC4661D3E23F800DDA755 /* HotelMoveIntoDateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelMoveIntoDateController.m; sourceTree = "<group>"; };
+		185806BB1D6EBE8E002FCE96 /* hotelIcon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotelIcon1.png; sourceTree = "<group>"; };
+		185806BC1D6EBE8E002FCE96 /* hotelIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotelIcon2.png; sourceTree = "<group>"; };
+		185806BD1D6EBE8E002FCE96 /* hotelIcon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotelIcon3.png; sourceTree = "<group>"; };
+		185806BE1D6EBE8E002FCE96 /* hotelIcon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotelIcon4.png; sourceTree = "<group>"; };
+		185806BF1D6EBE8E002FCE96 /* hotelIcon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotelIcon5.png; sourceTree = "<group>"; };
+		185806C01D6EBE8E002FCE96 /* hotelIcon6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotelIcon6.png; sourceTree = "<group>"; };
+		185B5C701D1B7D730006CD07 /* XCAPPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAPPNavigationController.h; sourceTree = "<group>"; };
+		185B5C711D1B7D730006CD07 /* XCAPPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCAPPNavigationController.m; sourceTree = "<group>"; };
+		185B5C731D1B7D900006CD07 /* XCAPPUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAPPUIViewController.h; sourceTree = "<group>"; };
+		185B5C741D1B7D900006CD07 /* XCAPPUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCAPPUIViewController.m; sourceTree = "<group>"; };
+		185B5C761D1B7F7A0006CD07 /* XCAPPProductService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAPPProductService.h; sourceTree = "<group>"; };
+		185B5C881D1B82B00006CD07 /* XCAPPFunctionsInfor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCAPPFunctionsInfor.m; sourceTree = "<group>"; };
+		185B5C8A1D1B82E90006CD07 /* XCAPPFunctionsInfor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAPPFunctionsInfor.h; sourceTree = "<group>"; };
+		185B5C8F1D1B8AA30006CD07 /* HomeMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeMainViewController.h; sourceTree = "<group>"; };
+		185B5C901D1B8AA30006CD07 /* HomeMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeMainViewController.m; sourceTree = "<group>"; };
+		185B5C921D1B8ABA0006CD07 /* AuthorizeMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorizeMainViewController.h; sourceTree = "<group>"; };
+		185B5C931D1B8ABA0006CD07 /* AuthorizeMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorizeMainViewController.m; sourceTree = "<group>"; };
+		185B5C951D1B8ACC0006CD07 /* ItineraryMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItineraryMainViewController.h; sourceTree = "<group>"; };
+		185B5C961D1B8ACC0006CD07 /* ItineraryMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItineraryMainViewController.m; sourceTree = "<group>"; };
+		185B5C981D1B8ADF0006CD07 /* PersonalInforViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInforViewController.h; sourceTree = "<group>"; };
+		185B5C991D1B8ADF0006CD07 /* PersonalInforViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInforViewController.m; sourceTree = "<group>"; };
+		185B5C9B1D1B8B240006CD07 /* XCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTabBarController.h; sourceTree = "<group>"; };
+		185B5C9C1D1B8B240006CD07 /* XCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTabBarController.m; sourceTree = "<group>"; };
+		185CC69D1D215B4100417D56 /* XCCurrentUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCurrentUserInfo.h; sourceTree = "<group>"; };
+		185CC69E1D215B4100417D56 /* XCCurrentUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCurrentUserInfo.m; sourceTree = "<group>"; };
+		185CC6A11D215B9500417D56 /* XCFMSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFMSettings.h; sourceTree = "<group>"; };
+		185CC6A21D215B9500417D56 /* XCFMSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFMSettings.m; sourceTree = "<group>"; };
+		185DE7521D22533F00DDC5FC /* UserInformationClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInformationClass.h; sourceTree = "<group>"; };
+		185DE7531D22533F00DDC5FC /* UserInformationClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInformationClass.m; sourceTree = "<group>"; };
+		185DE7551D22557A00DDC5FC /* XCAPPProEnumUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCAPPProEnumUIKit.h; sourceTree = "<group>"; };
+		186551D11DBF34FA008E2192 /* nr_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nr_selected.png; sourceTree = "<group>"; };
+		186551D31DBF3DFD008E2192 /* userRightCloseImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userRightCloseImageView.png; sourceTree = "<group>"; };
+		186551D51DBF6EE8008E2192 /* TrainTicketOrderDetailInforView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainTicketOrderDetailInforView.h; sourceTree = "<group>"; };
+		186551D61DBF6EE8008E2192 /* TrainTicketOrderDetailInforView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainTicketOrderDetailInforView.m; sourceTree = "<group>"; };
+		18685FC11D7D418D00EC320C /* OrderMenuSelectedBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderMenuSelectedBGView.h; sourceTree = "<group>"; };
+		18685FC21D7D418D00EC320C /* OrderMenuSelectedBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderMenuSelectedBGView.m; sourceTree = "<group>"; };
+		186E9CBC1D260FB3007B6540 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18744C9B1D70501700A99F24 /* homeTaxiImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeTaxiImage.png; sourceTree = "<group>"; };
+		18745F1B1D227DC900731F7D /* HotelMainListInforViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelMainListInforViewController.h; sourceTree = "<group>"; };
+		18745F1C1D227DC900731F7D /* HotelMainListInforViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelMainListInforViewController.m; sourceTree = "<group>"; };
+		18745F1E1D227E3600731F7D /* XCBaseUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCBaseUITableViewCell.h; sourceTree = "<group>"; };
+		18745F1F1D227E3600731F7D /* XCBaseUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCBaseUITableViewCell.m; sourceTree = "<group>"; };
+		18745F211D227FCA00731F7D /* HotelInforTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelInforTableViewCell.h; sourceTree = "<group>"; };
+		18745F221D227FCA00731F7D /* HotelInforTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelInforTableViewCell.m; sourceTree = "<group>"; };
+		18745F251D22803A00731F7D /* HotelInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelInformation.h; sourceTree = "<group>"; };
+		18745F261D22803A00731F7D /* HotelInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelInformation.m; sourceTree = "<group>"; };
+		1875BF841DC04F190030C863 /* HotelReserveOrderDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelReserveOrderDetailView.h; sourceTree = "<group>"; };
+		1875BF851DC04F190030C863 /* HotelReserveOrderDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelReserveOrderDetailView.m; sourceTree = "<group>"; };
+		1875BF8C1DC0A4A70030C863 /* hotelParkImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hotelParkImage.jpg; sourceTree = "<group>"; };
+		1875BF8D1DC0A4A70030C863 /* hotelWifiImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hotelWifiImage.jpg; sourceTree = "<group>"; };
+		187AA6F61D8285A0002E0C18 /* FlightOrderInfoDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightOrderInfoDetailController.h; sourceTree = "<group>"; };
+		187AA6F71D8285A0002E0C18 /* FlightOrderInfoDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightOrderInfoDetailController.m; sourceTree = "<group>"; };
+		187AA6F91D828666002E0C18 /* TrainticketOrderInforController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainticketOrderInforController.h; sourceTree = "<group>"; };
+		187AA6FA1D828666002E0C18 /* TrainticketOrderInforController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainticketOrderInforController.m; sourceTree = "<group>"; };
+		187C8DB21D6D920C00A8A628 /* ReviseMoveIntoDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviseMoveIntoDateView.h; sourceTree = "<group>"; };
+		187C8DB31D6D920C00A8A628 /* ReviseMoveIntoDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviseMoveIntoDateView.m; sourceTree = "<group>"; };
+		187F02071E0B679C00E66D58 /* XCAPP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XCAPP.entitlements; sourceTree = "<group>"; };
+		188009B81D2A630F00822B43 /* UserHotelOrderInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserHotelOrderInformation.h; sourceTree = "<group>"; };
+		188009B91D2A630F00822B43 /* UserHotelOrderInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserHotelOrderInformation.m; sourceTree = "<group>"; };
+		1882709A1D8684B500907CAE /* TrainTicketSearchListLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainTicketSearchListLayerView.h; sourceTree = "<group>"; };
+		1882709B1D8684B500907CAE /* TrainTicketSearchListLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainTicketSearchListLayerView.m; sourceTree = "<group>"; };
+		1889A1871D548EDD008E5CBF /* TrainTicketListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainTicketListViewController.h; sourceTree = "<group>"; };
+		1889A1881D548EDD008E5CBF /* TrainTicketListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainTicketListViewController.m; sourceTree = "<group>"; };
+		1889A18F1D54951F008E5CBF /* RelatedCNTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelatedCNTViewController.h; sourceTree = "<group>"; };
+		1889A1901D54951F008E5CBF /* RelatedCNTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelatedCNTViewController.m; sourceTree = "<group>"; };
+		1889A1921D549642008E5CBF /* SetupInforForTrainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupInforForTrainViewController.h; sourceTree = "<group>"; };
+		1889A1931D549642008E5CBF /* SetupInforForTrainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupInforForTrainViewController.m; sourceTree = "<group>"; };
+		1889A1951D5499F4008E5CBF /* AddTrainTicketUserInforController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTrainTicketUserInforController.h; sourceTree = "<group>"; };
+		1889A1961D5499F4008E5CBF /* AddTrainTicketUserInforController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTrainTicketUserInforController.m; sourceTree = "<group>"; };
+		1889A1991D54A076008E5CBF /* InvoiceInforViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvoiceInforViewController.h; sourceTree = "<group>"; };
+		1889A19A1D54A076008E5CBF /* InvoiceInforViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvoiceInforViewController.m; sourceTree = "<group>"; };
+		1889A19C1D54A0BA008E5CBF /* CreditCardInforController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCardInforController.h; sourceTree = "<group>"; };
+		1889A19D1D54A0BA008E5CBF /* CreditCardInforController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCardInforController.m; sourceTree = "<group>"; };
+		188D745C1D212C0500884933 /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		188D745D1D212C0500884933 /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		18924E361D26687E0097188C /* HotelSearcSetupBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelSearcSetupBottomView.h; sourceTree = "<group>"; };
+		18924E371D26687E0097188C /* HotelSearcSetupBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelSearcSetupBottomView.m; sourceTree = "<group>"; };
+		1892AD6A1DC1A92C00E4ADDF /* TrainTicketReturnController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainTicketReturnController.h; sourceTree = "<group>"; };
+		1892AD6B1DC1A92C00E4ADDF /* TrainTicketReturnController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainTicketReturnController.m; sourceTree = "<group>"; };
+		1899320F1DFFDFF2002701FF /* UIUserOperationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUserOperationButton.h; sourceTree = "<group>"; };
+		189932101DFFDFF2002701FF /* UIUserOperationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIUserOperationButton.m; sourceTree = "<group>"; };
+		18ADA59B1D20C5BD003188A4 /* AppDelegate+AppDelegateExpandVendor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AppDelegateExpandVendor.h"; sourceTree = "<group>"; };
+		18ADA59C1D20C5BD003188A4 /* AppDelegate+AppDelegateExpandVendor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AppDelegateExpandVendor.m"; sourceTree = "<group>"; };
+		18ADA59E1D20C6BF003188A4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		18ADA5A01D20C6D2003188A4 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		18ADA5A31D20C716003188A4 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		18ADA5A61D20C774003188A4 /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMMobClick.framework; sourceTree = "<group>"; };
+		18ADA5A81D20C7B0003188A4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		18ADD0A51DB6033E00AA8216 /* userDeleteImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userDeleteImage.png; sourceTree = "<group>"; };
+		18ADD0A71DB6246300AA8216 /* UITableViewHotelRoomHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewHotelRoomHeaderView.h; sourceTree = "<group>"; };
+		18ADD0A81DB6246300AA8216 /* UITableViewHotelRoomHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewHotelRoomHeaderView.m; sourceTree = "<group>"; };
+		18B073501D33760500A8C6EC /* WorkerManageSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkerManageSettingController.h; sourceTree = "<group>"; };
+		18B073511D33760500A8C6EC /* WorkerManageSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkerManageSettingController.m; sourceTree = "<group>"; };
+		18B073531D33766B00A8C6EC /* AddNewWorkerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewWorkerViewController.h; sourceTree = "<group>"; };
+		18B073541D33766B00A8C6EC /* AddNewWorkerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewWorkerViewController.m; sourceTree = "<group>"; };
+		18B32ADC1D9EA24E007A17E4 /* HTTPClient+FlightInforRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HTTPClient+FlightInforRequest.h"; sourceTree = "<group>"; };
+		18B32ADD1D9EA24E007A17E4 /* HTTPClient+FlightInforRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HTTPClient+FlightInforRequest.m"; sourceTree = "<group>"; };
+		18CF5DAE1D23D06A00E00E09 /* XCLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCLocationManager.h; sourceTree = "<group>"; };
+		18CF5DAF1D23D06A00E00E09 /* XCLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCLocationManager.m; sourceTree = "<group>"; };
+		18D1FFE21D6567F600B28F88 /* RTArealocationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTArealocationView.h; sourceTree = "<group>"; };
+		18D1FFE31D6567F600B28F88 /* RTArealocationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTArealocationView.m; sourceTree = "<group>"; };
+		18D1FFE81D65B5A100B28F88 /* PaySuccessfulViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaySuccessfulViewController.h; sourceTree = "<group>"; };
+		18D1FFE91D65B5A100B28F88 /* PaySuccessfulViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaySuccessfulViewController.m; sourceTree = "<group>"; };
+		18D1FFEB1D65B5E400B28F88 /* PayFailureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayFailureViewController.h; sourceTree = "<group>"; };
+		18D1FFEC1D65B5E400B28F88 /* PayFailureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayFailureViewController.m; sourceTree = "<group>"; };
+		18D1FFF11D65B73500B28F88 /* UserPersonalOrderInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPersonalOrderInformation.h; sourceTree = "<group>"; };
+		18D1FFF21D65B73500B28F88 /* UserPersonalOrderInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPersonalOrderInformation.m; sourceTree = "<group>"; };
+		18D1FFF41D661CA900B28F88 /* WorkerManageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkerManageTableViewCell.h; sourceTree = "<group>"; };
+		18D1FFF51D661CA900B28F88 /* WorkerManageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkerManageTableViewCell.m; sourceTree = "<group>"; };
+		18D3202C1D98C1250015EED4 /* TrainTicketAllSiftConditionLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainTicketAllSiftConditionLayerView.h; sourceTree = "<group>"; };
+		18D3202D1D98C1250015EED4 /* TrainTicketAllSiftConditionLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainTicketAllSiftConditionLayerView.m; sourceTree = "<group>"; };
+		18D52DCC1D3CAA2000026E78 /* UserLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLoginViewController.h; sourceTree = "<group>"; };
+		18D52DCD1D3CAA2000026E78 /* UserLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLoginViewController.m; sourceTree = "<group>"; };
+		18D52DCF1D3CAAA000026E78 /* UserReSetPwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserReSetPwdViewController.h; sourceTree = "<group>"; };
+		18D52DD01D3CAAA000026E78 /* UserReSetPwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserReSetPwdViewController.m; sourceTree = "<group>"; };
+		18D52DD21D3CAADD00026E78 /* ForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordViewController.h; sourceTree = "<group>"; };
+		18D52DD31D3CAADD00026E78 /* ForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordViewController.m; sourceTree = "<group>"; };
+		18D52DD51D3CAB2B00026E78 /* ForgetGetVerCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetGetVerCodeController.h; sourceTree = "<group>"; };
+		18D52DD61D3CAB2B00026E78 /* ForgetGetVerCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetGetVerCodeController.m; sourceTree = "<group>"; };
+		18D52DD81D3CAB6F00026E78 /* ForgetResetPwdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetResetPwdController.h; sourceTree = "<group>"; };
+		18D52DD91D3CAB6F00026E78 /* ForgetResetPwdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetResetPwdController.m; sourceTree = "<group>"; };
+		18D52DDD1D3CDF4000026E78 /* XCAPPNotificationNameUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCAPPNotificationNameUIKit.h; sourceTree = "<group>"; };
+		18DBD5DD1D24FB5500A2FD7F /* FMImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FMImage.bundle; sourceTree = "<group>"; };
+		18DBD5DE1D24FB5500A2FD7F /* FMImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMImageModel.h; sourceTree = "<group>"; };
+		18DBD5DF1D24FB5500A2FD7F /* FMImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMImageModel.m; sourceTree = "<group>"; };
+		18DBD5E01D24FB5500A2FD7F /* FMImageToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMImageToolbar.h; sourceTree = "<group>"; };
+		18DBD5E11D24FB5500A2FD7F /* FMImageToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMImageToolbar.m; sourceTree = "<group>"; };
+		18DBD5E21D24FB5500A2FD7F /* FMImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMImageView.h; sourceTree = "<group>"; };
+		18DBD5E31D24FB5500A2FD7F /* FMImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMImageView.m; sourceTree = "<group>"; };
+		18DBD5E41D24FB5500A2FD7F /* ImageBrowse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageBrowse.h; sourceTree = "<group>"; };
+		18DBD5E51D24FB5500A2FD7F /* ImageBrowse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageBrowse.m; sourceTree = "<group>"; };
+		18DBD5E61D24FB5500A2FD7F /* ImageContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageContentScrollView.h; sourceTree = "<group>"; };
+		18DBD5E71D24FB5500A2FD7F /* ImageContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageContentScrollView.m; sourceTree = "<group>"; };
+		18DBD5E81D24FB5500A2FD7F /* LoadProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadProgressView.h; sourceTree = "<group>"; };
+		18DBD5E91D24FB5500A2FD7F /* LoadProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadProgressView.m; sourceTree = "<group>"; };
+		18DBD5F21D24FB7F00A2FD7F /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		18DBD5F31D24FB7F00A2FD7F /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		18DBD5F41D24FB7F00A2FD7F /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		18DBD5F51D24FB7F00A2FD7F /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		18DBD5F61D24FB7F00A2FD7F /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		18DBD5F71D24FB7F00A2FD7F /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		18DBD5F81D24FB7F00A2FD7F /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		18DBD5F91D24FB7F00A2FD7F /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		18DBD5FA1D24FB7F00A2FD7F /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		18DBD5FB1D24FB7F00A2FD7F /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		18DBD5FC1D24FB7F00A2FD7F /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		18DBD5FD1D24FB7F00A2FD7F /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		18DBD5FE1D24FB7F00A2FD7F /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		18DBD5FF1D24FB7F00A2FD7F /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		18DBD6001D24FB7F00A2FD7F /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		18DBD6011D24FB7F00A2FD7F /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		18DBD6021D24FB7F00A2FD7F /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		18DBD6031D24FB7F00A2FD7F /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		18DBD6041D24FB7F00A2FD7F /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		18DBD6051D24FB7F00A2FD7F /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		18DBD6061D24FB7F00A2FD7F /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		18DBD6071D24FB7F00A2FD7F /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		18DBD6081D24FB7F00A2FD7F /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		18DBD6091D24FB7F00A2FD7F /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		18DBD60A1D24FB7F00A2FD7F /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		18DBD6181D24FC1E00A2FD7F /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		18DBD6191D24FC1E00A2FD7F /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		18DBD61A1D24FC1E00A2FD7F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		18DBD61B1D24FC1E00A2FD7F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		18DBD61E1D25019100A2FD7F /* BusinessTravelExplainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessTravelExplainController.h; sourceTree = "<group>"; };
+		18DBD61F1D25019100A2FD7F /* BusinessTravelExplainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessTravelExplainController.m; sourceTree = "<group>"; };
+		18DBD6211D25227F00A2FD7F /* HotelDetailMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelDetailMainViewController.h; sourceTree = "<group>"; };
+		18DBD6221D25227F00A2FD7F /* HotelDetailMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelDetailMainViewController.m; sourceTree = "<group>"; };
+		18E157711D2BA223001C8B0B /* LocationOrNameSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationOrNameSearchController.h; sourceTree = "<group>"; };
+		18E157721D2BA223001C8B0B /* LocationOrNameSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationOrNameSearchController.m; sourceTree = "<group>"; };
+		18EDB7661DAE372100E21744 /* FromToImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FromToImage.png; sourceTree = "<group>"; };
+		18EEB2951D20FAD3008D3580 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		18EEB2961D20FAD3008D3580 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		18EEB2971D20FAD3008D3580 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		18EEB2981D20FAD3008D3580 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		18EEB2991D20FAD3008D3580 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		18EEB29A1D20FAD3008D3580 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		18EEB29B1D20FAD3008D3580 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		18EEB29C1D20FAD3008D3580 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		18EEB29D1D20FAD3008D3580 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		18EEB29E1D20FAD3008D3580 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		18EEB29F1D20FAD3008D3580 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		18EEB2A01D20FAD3008D3580 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		18EEB2A11D20FAD3008D3580 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		18EEB2A21D20FAD3008D3580 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		18EEB2A31D20FAD3008D3580 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		18EEB2A41D20FAD3008D3580 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		18EEB2A51D20FAD3008D3580 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		18EEB2A61D20FAD3008D3580 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		18EEB2A71D20FAD3008D3580 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		18EEB2B31D20FB9F008D3580 /* WebAPIDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebAPIDefine.h; sourceTree = "<group>"; };
+		18EEB2B41D20FC39008D3580 /* WebAPIResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebAPIResponse.h; sourceTree = "<group>"; };
+		18EEB2B51D20FC39008D3580 /* WebAPIResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebAPIResponse.m; sourceTree = "<group>"; };
+		18EEB2B71D20FD51008D3580 /* HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPClient.h; sourceTree = "<group>"; };
+		18EEB2B81D20FD51008D3580 /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPClient.m; sourceTree = "<group>"; };
+		18EEB2BA1D20FEB9008D3580 /* HTTPClient+PersonalInfor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HTTPClient+PersonalInfor.h"; sourceTree = "<group>"; };
+		18EEB2BB1D20FEB9008D3580 /* HTTPClient+PersonalInfor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HTTPClient+PersonalInfor.m"; sourceTree = "<group>"; };
+		18F391E11D5832A700EB7B57 /* TrainPassStationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainPassStationController.h; sourceTree = "<group>"; };
+		18F391E21D5832A700EB7B57 /* TrainPassStationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainPassStationController.m; sourceTree = "<group>"; };
+		18F391E41D5834E500EB7B57 /* ReturnedMoneyInstructionsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnedMoneyInstructionsController.h; sourceTree = "<group>"; };
+		18F391E51D5834E500EB7B57 /* ReturnedMoneyInstructionsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReturnedMoneyInstructionsController.m; sourceTree = "<group>"; };
+		18F391E71D59713E00EB7B57 /* FlightMainListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightMainListViewController.h; sourceTree = "<group>"; };
+		18F391E81D59713E00EB7B57 /* FlightMainListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightMainListViewController.m; sourceTree = "<group>"; };
+		18F391EA1D59717000EB7B57 /* FlightOrderInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightOrderInformation.h; sourceTree = "<group>"; };
+		18F391EB1D59717000EB7B57 /* FlightOrderInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightOrderInformation.m; sourceTree = "<group>"; };
+		18F391ED1D59CCA000EB7B57 /* UITableViewFlightHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewFlightHeaderView.h; sourceTree = "<group>"; };
+		18F391EE1D59CCA000EB7B57 /* UITableViewFlightHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewFlightHeaderView.m; sourceTree = "<group>"; };
+		18F391F01D59CCE700EB7B57 /* FlightNumberTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightNumberTableViewCell.h; sourceTree = "<group>"; };
+		18F391F11D59CCE700EB7B57 /* FlightNumberTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightNumberTableViewCell.m; sourceTree = "<group>"; };
+		18F5BCE61D2949A600C97386 /* MoreSiftRequirementController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreSiftRequirementController.h; sourceTree = "<group>"; };
+		18F5BCE71D2949A600C97386 /* MoreSiftRequirementController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreSiftRequirementController.m; sourceTree = "<group>"; };
+		18F5BCEA1D29579200C97386 /* HotelPersonalCollectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelPersonalCollectController.h; sourceTree = "<group>"; };
+		18F5BCEB1D29579200C97386 /* HotelPersonalCollectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelPersonalCollectController.m; sourceTree = "<group>"; };
+		18F6A92F1D55B39300083120 /* TrainticketOrderInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainticketOrderInformation.h; sourceTree = "<group>"; };
+		18F6A9301D55B39300083120 /* TrainticketOrderInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainticketOrderInformation.m; sourceTree = "<group>"; };
+		18F6A9321D55B69B00083120 /* TrainTicketTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainTicketTableHeaderView.h; sourceTree = "<group>"; };
+		18F6A9331D55B69B00083120 /* TrainTicketTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainTicketTableHeaderView.m; sourceTree = "<group>"; };
+		18F6A9351D55B7BB00083120 /* TrainTicketTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainTicketTableViewCell.h; sourceTree = "<group>"; };
+		18F6A9361D55B7BB00083120 /* TrainTicketTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainTicketTableViewCell.m; sourceTree = "<group>"; };
+		18F6A9611D5732FA00083120 /* FillTrainTicketOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FillTrainTicketOrderViewController.h; sourceTree = "<group>"; };
+		18F6A9621D5732FA00083120 /* FillTrainTicketOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FillTrainTicketOrderViewController.m; sourceTree = "<group>"; };
+		18F6A9641D57331800083120 /* FillTrainTicketOrderSecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FillTrainTicketOrderSecondController.h; sourceTree = "<group>"; };
+		18F6A9651D57331800083120 /* FillTrainTicketOrderSecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FillTrainTicketOrderSecondController.m; sourceTree = "<group>"; };
+		18F6A9671D57335300083120 /* CheckTrainOrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckTrainOrderController.h; sourceTree = "<group>"; };
+		18F6A9681D57335300083120 /* CheckTrainOrderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckTrainOrderController.m; sourceTree = "<group>"; };
 		18FA1A591D1ADA1000FEEE61 /* XCAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FA1A5D1D1ADA1000FEEE61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18FA1A5F1D1ADA1000FEEE61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18FA1A601D1ADA1000FEEE61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18FA1A621D1ADA1000FEEE61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18FA1A631D1ADA1000FEEE61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18FA1A661D1ADA1000FEEE61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18FA1A681D1ADA1000FEEE61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18FA1A6B1D1ADA1000FEEE61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18FA1A6D1D1ADA1000FEEE61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FA1A731D1ADA4C00FEEE61 /* XCAPP-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCAPP-Prefix.pch"; sourceTree = "<group>"; };
+		18FA1A741D1ADB8B00FEEE61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18FA1A7C1D1ADFFC00FEEE61 /* DataPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPage.h; sourceTree = "<group>"; };
+		18FA1A7D1D1ADFFC00FEEE61 /* DataPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataPage.m; sourceTree = "<group>"; };
+		18FA1A801D1AE03800FEEE61 /* XCAPPThemeColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCAPPThemeColor.h; sourceTree = "<group>"; };
+		18FA1A811D1AE05300FEEE61 /* XCAPPThemeTextContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAPPThemeTextContent.h; sourceTree = "<group>"; };
+		18FA1A821D1AE07600FEEE61 /* XCAPPThemeFontSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAPPThemeFontSize.h; sourceTree = "<group>"; };
+		18FA1A831D1AE0BE00FEEE61 /* XCAPPThemeScreenSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAPPThemeScreenSize.h; sourceTree = "<group>"; };
+		18FA1A841D1AE29600FEEE61 /* XCAPPThemeUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAPPThemeUIKit.h; sourceTree = "<group>"; };
+		18FA1A871D1AE58100FEEE61 /* UIButton+Bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Bootstrap.h"; sourceTree = "<group>"; };
+		18FA1A881D1AE58100FEEE61 /* UIButton+Bootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Bootstrap.m"; sourceTree = "<group>"; };
+		18FA1A8A1D1AE58100FEEE61 /* FAImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAImageView.h; sourceTree = "<group>"; };
+		18FA1A8B1D1AE58100FEEE61 /* FAImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAImageView.m; sourceTree = "<group>"; };
+		18FA1A8C1D1AE58100FEEE61 /* FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontAwesome.h; sourceTree = "<group>"; };
+		18FA1A8D1D1AE58100FEEE61 /* FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontAwesome.m; sourceTree = "<group>"; };
+		18FA1A8E1D1AE58100FEEE61 /* LvyeFontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LvyeFontAwesome.ttf; sourceTree = "<group>"; };
+		18FA1A8F1D1AE58100FEEE61 /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		18FA1A901D1AE58100FEEE61 /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		18FA1A911D1AE58100FEEE61 /* UIFont+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FontAwesome.h"; sourceTree = "<group>"; };
+		18FA1A921D1AE58100FEEE61 /* UIFont+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FontAwesome.m"; sourceTree = "<group>"; };
+		18FA1A9A1D1AE63500FEEE61 /* HUIDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUIDebug.h; sourceTree = "<group>"; };
+		18FA1A9B1D1AE63500FEEE61 /* HUIKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUIKeyboard.h; sourceTree = "<group>"; };
+		18FA1A9C1D1AE63500FEEE61 /* HUIKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUIKeyboard.m; sourceTree = "<group>"; };
+		18FA1A9D1D1AE63500FEEE61 /* HUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUIKit.h; sourceTree = "<group>"; };
+		18FA1A9E1D1AE63500FEEE61 /* HUILoadMoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUILoadMoreCell.h; sourceTree = "<group>"; };
+		18FA1A9F1D1AE63500FEEE61 /* HUILoadMoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUILoadMoreCell.m; sourceTree = "<group>"; };
+		18FA1AA01D1AE63500FEEE61 /* HUILocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUILocationManager.h; sourceTree = "<group>"; };
+		18FA1AA11D1AE63500FEEE61 /* HUILocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUILocationManager.m; sourceTree = "<group>"; };
+		18FA1AA21D1AE63500FEEE61 /* NSDateFormatter+HUIAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+HUIAddition.h"; sourceTree = "<group>"; };
+		18FA1AA31D1AE63500FEEE61 /* NSDateFormatter+HUIAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+HUIAddition.m"; sourceTree = "<group>"; };
+		18FA1AA41D1AE63500FEEE61 /* UIDevice+HUIAddtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HUIAddtion.h"; sourceTree = "<group>"; };
+		18FA1AA51D1AE63500FEEE61 /* UIDevice+HUIAddtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+HUIAddtion.m"; sourceTree = "<group>"; };
+		18FA1AA61D1AE63500FEEE61 /* UIScreen+HUIAddtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+HUIAddtion.h"; sourceTree = "<group>"; };
+		18FA1AA71D1AE63500FEEE61 /* UIScreen+HUIAddtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+HUIAddtion.m"; sourceTree = "<group>"; };
+		18FA1AC31D1AE6B900FEEE61 /* NSDate+TimeAgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeAgo.h"; sourceTree = "<group>"; };
+		18FA1AC41D1AE6B900FEEE61 /* NSDate+TimeAgo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeAgo.m"; sourceTree = "<group>"; };
+		18FA1AC51D1AE6B900FEEE61 /* NSDate+TimeAgo.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NSDate+TimeAgo.podspec"; sourceTree = "<group>"; };
+		18FA1AC81D1AE6B900FEEE61 /* NSDateTimeAgo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NSDateTimeAgo.bundle; sourceTree = "<group>"; };
+		18FA1AC91D1AE6B900FEEE61 /* UIColor+RCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RCColor.h"; sourceTree = "<group>"; };
+		18FA1ACA1D1AE6B900FEEE61 /* UIColor+RCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RCColor.m"; sourceTree = "<group>"; };
+		18FA1ACB1D1AE6B900FEEE61 /* UIImage+RCImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RCImage.h"; sourceTree = "<group>"; };
+		18FA1ACC1D1AE6B900FEEE61 /* UIImage+RCImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RCImage.m"; sourceTree = "<group>"; };
+		18FA1ACD1D1AE6B900FEEE61 /* UIView+ViewCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewCategory.h"; sourceTree = "<group>"; };
+		18FA1ACE1D1AE6B900FEEE61 /* UIView+ViewCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewCategory.m"; sourceTree = "<group>"; };
+		18FC5CEA1DB4D901006C3B5D /* OrderExpenseTrainTicketDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderExpenseTrainTicketDetailView.h; sourceTree = "<group>"; };
+		18FC5CEB1DB4D901006C3B5D /* OrderExpenseTrainTicketDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderExpenseTrainTicketDetailView.m; sourceTree = "<group>"; };
+		18FE69AA1D697F0D003FC66E /* HotelDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelDetailTableViewCell.h; sourceTree = "<group>"; };
+		18FE69AB1D697F0D003FC66E /* HotelDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelDetailTableViewCell.m; sourceTree = "<group>"; };
+		18FE69AD1D69831A003FC66E /* HotelDetailHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelDetailHeaderView.h; sourceTree = "<group>"; };
+		18FE69AE1D69831A003FC66E /* HotelDetailHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelDetailHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,15 +624,748 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186E9CBD1D260FB3007B6540 /* SystemConfiguration.framework in Frameworks */,
+				18ADA59F1D20C6BF003188A4 /* CoreTelephony.framework in Frameworks */,
+				1815DA111D23CB1A00F86073 /* CoreLocation.framework in Frameworks */,
+				1815DA0F1D23CB1100F86073 /* MapKit.framework in Frameworks */,
+				18ADA5A91D20C7B0003188A4 /* Security.framework in Frameworks */,
+				18ADA5A41D20C716003188A4 /* libsqlite3.tbd in Frameworks */,
+				18ADA5A11D20C6D2003188A4 /* libz.tbd in Frameworks */,
+				18ADA5A71D20C774003188A4 /* UMMobClick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180C2FB61D33D950004DC1A0 /* PersonalOrderInforControllers(订单信息) */ = {
+			isa = PBXGroup;
+			children = (
+				1892AD691DC1A90000E4ADDF /* PersonalReturnTrainTicketOperation */,
+				180C2FBA1D33D998004DC1A0 /* PerOrderTableViewCell.h */,
+				180C2FBB1D33D998004DC1A0 /* PerOrderTableViewCell.m */,
+				180C2FB71D33D97B004DC1A0 /* PerOrderListViewController.h */,
+				180C2FB81D33D97B004DC1A0 /* PerOrderListViewController.m */,
+				182109D01D9B975C00D86E4B /* HotelOrderInfoDetailController.h */,
+				182109D11D9B975C00D86E4B /* HotelOrderInfoDetailController.m */,
+				187AA6F61D8285A0002E0C18 /* FlightOrderInfoDetailController.h */,
+				187AA6F71D8285A0002E0C18 /* FlightOrderInfoDetailController.m */,
+				187AA6F91D828666002E0C18 /* TrainticketOrderInforController.h */,
+				187AA6FA1D828666002E0C18 /* TrainticketOrderInforController.m */,
+				18FC5CEA1DB4D901006C3B5D /* OrderExpenseTrainTicketDetailView.h */,
+				18FC5CEB1DB4D901006C3B5D /* OrderExpenseTrainTicketDetailView.m */,
+				180C2FC01D33DF5D004DC1A0 /* OrderExpenseDetailView.h */,
+				180C2FC11D33DF5D004DC1A0 /* OrderExpenseDetailView.m */,
+				18685FC11D7D418D00EC320C /* OrderMenuSelectedBGView.h */,
+				18685FC21D7D418D00EC320C /* OrderMenuSelectedBGView.m */,
+			);
+			name = "PersonalOrderInforControllers(订单信息)";
+			path = PersonalOrderInforControllers;
+			sourceTree = "<group>";
+		};
+		1815DA061D23ADA800F86073 /* SVPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				1815DA071D23ADA800F86073 /* SVPullToRefresh.h */,
+				1815DA081D23ADA800F86073 /* UIScrollView+SVInfiniteScrolling.h */,
+				1815DA091D23ADA800F86073 /* UIScrollView+SVInfiniteScrolling.m */,
+				1815DA0A1D23ADA800F86073 /* UIScrollView+SVPullToRefresh.h */,
+				1815DA0B1D23ADA800F86073 /* UIScrollView+SVPullToRefresh.m */,
+			);
+			path = SVPullToRefresh;
+			sourceTree = "<group>";
+		};
+		181AFD661D36368500F2B844 /* HotelDetailIntroduceControllers(酒店信息及预订) */ = {
+			isa = PBXGroup;
+			children = (
+				181AFD701D36370400F2B844 /* HotelCommentController.h */,
+				181AFD711D36370400F2B844 /* HotelCommentController.m */,
+				181AFD6D1D3636AA00F2B844 /* HotelIntroduceController.h */,
+				181AFD6E1D3636AA00F2B844 /* HotelIntroduceController.m */,
+				181AFD671D36368500F2B844 /* HotelMapAddressController.h */,
+				181AFD681D36368500F2B844 /* HotelMapAddressController.m */,
+				1841A2A41D488B3C00DECE2F /* UserReserveHotelViewController.h */,
+				1841A2A51D488B3C00DECE2F /* UserReserveHotelViewController.m */,
+				1875BF841DC04F190030C863 /* HotelReserveOrderDetailView.h */,
+				1875BF851DC04F190030C863 /* HotelReserveOrderDetailView.m */,
+				1825FF961DB746D30021B570 /* HotelReserveTenantInforController.h */,
+				1825FF971DB746D30021B570 /* HotelReserveTenantInforController.m */,
+				1825FF991DB74CDE0021B570 /* HotelReserveTenantInforTableCell.h */,
+				1825FF9A1DB74CDE0021B570 /* HotelReserveTenantInforTableCell.m */,
+			);
+			name = "HotelDetailIntroduceControllers(酒店信息及预订)";
+			path = HotelDetailIntroduceControllers;
+			sourceTree = "<group>";
+		};
+		18290F6A1D2CF4480094D35C /* PersonalBundlePhoneControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18290F6B1D2CF4610094D35C /* BundlePhoneController.h */,
+				18290F6C1D2CF4610094D35C /* BundlePhoneController.m */,
+				18290F6E1D2CF4740094D35C /* BundlePhoneFinishViewController.h */,
+				18290F6F1D2CF4740094D35C /* BundlePhoneFinishViewController.m */,
+			);
+			path = PersonalBundlePhoneControllers;
+			sourceTree = "<group>";
+		};
+		183989241D64072E007CF4B6 /* XCAPPCalendarClasses */ = {
+			isa = PBXGroup;
+			children = (
+				183989251D64072E007CF4B6 /* CalendarDayCell.h */,
+				183989261D64072E007CF4B6 /* CalendarDayCell.m */,
+				183989271D64072E007CF4B6 /* CalendarDayModel.h */,
+				183989281D64072E007CF4B6 /* CalendarDayModel.m */,
+				183989291D64072E007CF4B6 /* CalendarHomeViewController.h */,
+				1839892A1D64072E007CF4B6 /* CalendarHomeViewController.m */,
+				1839892B1D64072E007CF4B6 /* CalendarLogic.h */,
+				1839892C1D64072E007CF4B6 /* CalendarLogic.m */,
+				1839892D1D64072E007CF4B6 /* CalendarMonthCollectionViewLayout.h */,
+				1839892E1D64072E007CF4B6 /* CalendarMonthCollectionViewLayout.m */,
+				1839892F1D64072E007CF4B6 /* CalendarMonthHeaderView.h */,
+				183989301D64072E007CF4B6 /* CalendarMonthHeaderView.m */,
+				183989311D64072E007CF4B6 /* CalendarViewController.h */,
+				183989321D64072E007CF4B6 /* CalendarViewController.m */,
+				183989331D64072E007CF4B6 /* chack.png */,
+				183989341D64072E007CF4B6 /* Color.h */,
+				183989351D64072E007CF4B6 /* NSDate+WQCalendarLogic.h */,
+				183989361D64072E007CF4B6 /* NSDate+WQCalendarLogic.m */,
+			);
+			path = XCAPPCalendarClasses;
+			sourceTree = "<group>";
+		};
+		183989401D640B81007CF4B6 /* XCAPPPublicControllers(公用界面内容) */ = {
+			isa = PBXGroup;
+			children = (
+				183989411D640BBD007CF4B6 /* CityInforViewController.h */,
+				183989421D640BBD007CF4B6 /* CityInforViewController.m */,
+				18D1FFE81D65B5A100B28F88 /* PaySuccessfulViewController.h */,
+				18D1FFE91D65B5A100B28F88 /* PaySuccessfulViewController.m */,
+				18D1FFEB1D65B5E400B28F88 /* PayFailureViewController.h */,
+				18D1FFEC1D65B5E400B28F88 /* PayFailureViewController.m */,
+				18085C541D8808B900B81FFB /* OrderImmediatePayViewController.h */,
+				18085C551D8808B900B81FFB /* OrderImmediatePayViewController.m */,
+				183EC8DC1D92379A00BF7659 /* CityInforForTrainTicketController.h */,
+				183EC8DD1D92379A00BF7659 /* CityInforForTrainTicketController.m */,
+				183EC8DF1D928A2600BF7659 /* CityInforForTrainTicketTableViewCell.h */,
+				183EC8E01D928A2600BF7659 /* CityInforForTrainTicketTableViewCell.m */,
+			);
+			name = "XCAPPPublicControllers(公用界面内容)";
+			path = XCAPPPublicControllers;
+			sourceTree = "<group>";
+		};
+		183C473C1D2107240084693D /* OpenUDIDUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				183C473D1D2107240084693D /* OpenUDID.h */,
+				183C473E1D2107240084693D /* OpenUDID.m */,
+			);
+			path = OpenUDIDUIKit;
+			sourceTree = "<group>";
+		};
+		183F22551D5A03690002AEA5 /* ASLocalSystemNotification */ = {
+			isa = PBXGroup;
+			children = (
+				183F22561D5A03690002AEA5 /* ASLocalSetupSystemNotification.h */,
+				183F22571D5A03690002AEA5 /* ASLocalSetupSystemNotification.m */,
+			);
+			path = ASLocalSystemNotification;
+			sourceTree = "<group>";
+		};
+		1840CCE31D63078D009D780A /* FlightSearchAffiliatedView */ = {
+			isa = PBXGroup;
+			children = (
+				1840CCE71D630C11009D780A /* FlightSearchListLayerView.h */,
+				1840CCE81D630C11009D780A /* FlightSearchListLayerView.m */,
+			);
+			path = FlightSearchAffiliatedView;
+			sourceTree = "<group>";
+		};
+		184155161D5469EB00086370 /* FlightControllersFile(航班订购) */ = {
+			isa = PBXGroup;
+			children = (
+				1840CCE31D63078D009D780A /* FlightSearchAffiliatedView */,
+				184313061D5B0CF100BF072F /* FlightOrderInforControllers(航班订购) */,
+				1841551E1D547F0E00086370 /* FlightInforMainController.h */,
+				1841551F1D547F0E00086370 /* FlightInforMainController.m */,
+				18F391E71D59713E00EB7B57 /* FlightMainListViewController.h */,
+				18F391E81D59713E00EB7B57 /* FlightMainListViewController.m */,
+				18F391ED1D59CCA000EB7B57 /* UITableViewFlightHeaderView.h */,
+				18F391EE1D59CCA000EB7B57 /* UITableViewFlightHeaderView.m */,
+				18F391F01D59CCE700EB7B57 /* FlightNumberTableViewCell.h */,
+				18F391F11D59CCE700EB7B57 /* FlightNumberTableViewCell.m */,
+			);
+			name = "FlightControllersFile(航班订购)";
+			path = FlightControllersFile;
+			sourceTree = "<group>";
+		};
+		184155171D5469EB00086370 /* TrainTicketControllersFiles(火车票订购) */ = {
+			isa = PBXGroup;
+			children = (
+				18F6A9601D5732FA00083120 /* TrainTicketOrderInforControllers */,
+				1889A1981D549A80008E5CBF /* SupplementOrderInforControllers(补充订单信息) */,
+				1889A18E1D54951F008E5CBF /* SupplementUserInforControllers(补充出行人员信息) */,
+				1889A18D1D5494A7008E5CBF /* TrainTicketAuxiliaryView */,
+				184155211D547F2800086370 /* TrainTicketInforMainController.h */,
+				184155221D547F2800086370 /* TrainTicketInforMainController.m */,
+				1889A1871D548EDD008E5CBF /* TrainTicketListViewController.h */,
+				1889A1881D548EDD008E5CBF /* TrainTicketListViewController.m */,
+				18F6A9351D55B7BB00083120 /* TrainTicketTableViewCell.h */,
+				18F6A9361D55B7BB00083120 /* TrainTicketTableViewCell.m */,
+			);
+			name = "TrainTicketControllersFiles(火车票订购)";
+			path = TrainTicketControllersFiles;
+			sourceTree = "<group>";
+		};
+		184313061D5B0CF100BF072F /* FlightOrderInforControllers(航班订购) */ = {
+			isa = PBXGroup;
+			children = (
+				1843130A1D5B22B100BF072F /* RCStandardController.h */,
+				1843130B1D5B22B100BF072F /* RCStandardController.m */,
+				184313071D5B0D5B00BF072F /* WriteOutFlightOrderController.h */,
+				184313081D5B0D5B00BF072F /* WriteOutFlightOrderController.m */,
+				18D1FFE21D6567F600B28F88 /* RTArealocationView.h */,
+				18D1FFE31D6567F600B28F88 /* RTArealocationView.m */,
+				1840CCEA1D631C3D009D780A /* FlightAccurateSiftController.h */,
+				1840CCEB1D631C3D009D780A /* FlightAccurateSiftController.m */,
+			);
+			name = "FlightOrderInforControllers(航班订购)";
+			path = FlightOrderInforControllers;
+			sourceTree = "<group>";
+		};
+		1843AA7C1D6AC47400EEF980 /* APPMainImagesResources */ = {
+			isa = PBXGroup;
+			children = (
+				18744C9B1D70501700A99F24 /* homeTaxiImage.png */,
+				18EDB7661DAE372100E21744 /* FromToImage.png */,
+				18ADD0A51DB6033E00AA8216 /* userDeleteImage.png */,
+				1843AA7D1D6AC47400EEF980 /* homeFlightImage.jpg */,
+				1843AA7E1D6AC47400EEF980 /* homeHotelImage.jpg */,
+				1843AA7F1D6AC47400EEF980 /* homeImage.jpg */,
+				1843AA801D6AC47400EEF980 /* homeTrainTicketImage.jpg */,
+			);
+			path = APPMainImagesResources;
+			sourceTree = "<group>";
+		};
+		184A245B1D2E56BF00531065 /* PersonalSetPasswordControllers */ = {
+			isa = PBXGroup;
+			children = (
+				184A245C1D2E56D000531065 /* SetPasswordViewController.h */,
+				184A245D1D2E56D000531065 /* SetPasswordViewController.m */,
+			);
+			path = PersonalSetPasswordControllers;
+			sourceTree = "<group>";
+		};
+		184A245F1D2F766C00531065 /* XCAPPTextField */ = {
+			isa = PBXGroup;
+			children = (
+				184A24601D2F768700531065 /* XCAPPUITextField.h */,
+				184A24611D2F768700531065 /* XCAPPUITextField.m */,
+			);
+			path = XCAPPTextField;
+			sourceTree = "<group>";
+		};
+		184EC4611D3E23A400DDA755 /* HotelSearchInitialControllers */ = {
+			isa = PBXGroup;
+			children = (
+				184EC4621D3E23C400DDA755 /* HotelAtCitySearchController.h */,
+				184EC4631D3E23C400DDA755 /* HotelAtCitySearchController.m */,
+				184EC4651D3E23F800DDA755 /* HotelMoveIntoDateController.h */,
+				184EC4661D3E23F800DDA755 /* HotelMoveIntoDateController.m */,
+			);
+			path = HotelSearchInitialControllers;
+			sourceTree = "<group>";
+		};
+		185806BA1D6EBE8E002FCE96 /* APPHotelImitateImagesResources */ = {
+			isa = PBXGroup;
+			children = (
+				1875BF871DC0A2D80030C863 /* HotelServiceImagesResources */,
+				185806BB1D6EBE8E002FCE96 /* hotelIcon1.png */,
+				185806BC1D6EBE8E002FCE96 /* hotelIcon2.png */,
+				185806BD1D6EBE8E002FCE96 /* hotelIcon3.png */,
+				185806BE1D6EBE8E002FCE96 /* hotelIcon4.png */,
+				185806BF1D6EBE8E002FCE96 /* hotelIcon5.png */,
+				185806C01D6EBE8E002FCE96 /* hotelIcon6.png */,
+			);
+			path = APPHotelImitateImagesResources;
+			sourceTree = "<group>";
+		};
+		185B5C6F1D1B7D680006CD07 /* XCAPPBaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				185B5C701D1B7D730006CD07 /* XCAPPNavigationController.h */,
+				185B5C711D1B7D730006CD07 /* XCAPPNavigationController.m */,
+				185B5C731D1B7D900006CD07 /* XCAPPUIViewController.h */,
+				185B5C741D1B7D900006CD07 /* XCAPPUIViewController.m */,
+			);
+			path = XCAPPBaseControllers;
+			sourceTree = "<group>";
+		};
+		185B5C771D1B807E0006CD07 /* XCAPPFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				185B5C8A1D1B82E90006CD07 /* XCAPPFunctionsInfor.h */,
+				185B5C881D1B82B00006CD07 /* XCAPPFunctionsInfor.m */,
+			);
+			path = XCAPPFunctions;
+			sourceTree = "<group>";
+		};
+		185B5C8B1D1B8A540006CD07 /* AuthorizeMainControllers(授权) */ = {
+			isa = PBXGroup;
+			children = (
+				185B5C921D1B8ABA0006CD07 /* AuthorizeMainViewController.h */,
+				185B5C931D1B8ABA0006CD07 /* AuthorizeMainViewController.m */,
+			);
+			name = "AuthorizeMainControllers(授权)";
+			path = AuthorizeMainControllers;
+			sourceTree = "<group>";
+		};
+		185B5C8C1D1B8A540006CD07 /* HomePageMainControllers(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				18745F141D2277E500731F7D /* HotelControllersFile(酒店订购) */,
+				184155161D5469EB00086370 /* FlightControllersFile(航班订购) */,
+				184155171D5469EB00086370 /* TrainTicketControllersFiles(火车票订购) */,
+				185B5C8F1D1B8AA30006CD07 /* HomeMainViewController.h */,
+				185B5C901D1B8AA30006CD07 /* HomeMainViewController.m */,
+			);
+			name = "HomePageMainControllers(首页)";
+			path = HomePageMainControllers;
+			sourceTree = "<group>";
+		};
+		185B5C8D1D1B8A540006CD07 /* ItineraryMainControllers(行程) */ = {
+			isa = PBXGroup;
+			children = (
+				185B5C951D1B8ACC0006CD07 /* ItineraryMainViewController.h */,
+				185B5C961D1B8ACC0006CD07 /* ItineraryMainViewController.m */,
+			);
+			name = "ItineraryMainControllers(行程)";
+			path = ItineraryMainControllers;
+			sourceTree = "<group>";
+		};
+		185B5C8E1D1B8A540006CD07 /* PersonalInfoMainControllers(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				18B0734F1D33759F00A8C6EC /* WorkerManageSetControllers(员工管理) */,
+				184A245B1D2E56BF00531065 /* PersonalSetPasswordControllers */,
+				18290F6A1D2CF4480094D35C /* PersonalBundlePhoneControllers */,
+				188D745B1D212BF800884933 /* PersonalSetupControllersFiles */,
+				185B5C981D1B8ADF0006CD07 /* PersonalInforViewController.h */,
+				185B5C991D1B8ADF0006CD07 /* PersonalInforViewController.m */,
+			);
+			name = "PersonalInfoMainControllers(我的)";
+			path = PersonalInfoMainControllers;
+			sourceTree = "<group>";
+		};
+		185CC69C1D215B1C00417D56 /* CurrentUserInforFiles */ = {
+			isa = PBXGroup;
+			children = (
+				185CC69D1D215B4100417D56 /* XCCurrentUserInfo.h */,
+				185CC69E1D215B4100417D56 /* XCCurrentUserInfo.m */,
+				185DE7521D22533F00DDC5FC /* UserInformationClass.h */,
+				185DE7531D22533F00DDC5FC /* UserInformationClass.m */,
+				182E19C21F298565004FAF3E /* BabyInfo.h */,
+				182E19C31F298565004FAF3E /* BabyInfo.m */,
+			);
+			path = CurrentUserInforFiles;
+			sourceTree = "<group>";
+		};
+		185CC6A01D215B7D00417D56 /* XCAPPFMSettings */ = {
+			isa = PBXGroup;
+			children = (
+				185CC6A11D215B9500417D56 /* XCFMSettings.h */,
+				185CC6A21D215B9500417D56 /* XCFMSettings.m */,
+			);
+			path = XCAPPFMSettings;
+			sourceTree = "<group>";
+		};
+		186551D01DBF34FA008E2192 /* APPOtherImagesResources */ = {
+			isa = PBXGroup;
+			children = (
+				186551D11DBF34FA008E2192 /* nr_selected.png */,
+				186551D31DBF3DFD008E2192 /* userRightCloseImageView.png */,
+			);
+			path = APPOtherImagesResources;
+			sourceTree = "<group>";
+		};
+		186E9CB71D260EBD007B6540 /* MAMap */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MAMap;
+			sourceTree = "<group>";
+		};
+		18745F141D2277E500731F7D /* HotelControllersFile(酒店订购) */ = {
+			isa = PBXGroup;
+			children = (
+				184EC4611D3E23A400DDA755 /* HotelSearchInitialControllers */,
+				181AFD661D36368500F2B844 /* HotelDetailIntroduceControllers(酒店信息及预订) */,
+				18E157701D2BA1DF001C8B0B /* HotelSearchControllers(通过位置/酒店名) */,
+				18F5BCE91D29577700C97386 /* HotelCollectControllers */,
+				18924E351D26687E0097188C /* HotelAffiliatedView */,
+				181AFD731D36432700F2B844 /* HotelReserveMainViewController.h */,
+				181AFD741D36432700F2B844 /* HotelReserveMainViewController.m */,
+				18745F1B1D227DC900731F7D /* HotelMainListInforViewController.h */,
+				18745F1C1D227DC900731F7D /* HotelMainListInforViewController.m */,
+				18745F211D227FCA00731F7D /* HotelInforTableViewCell.h */,
+				18745F221D227FCA00731F7D /* HotelInforTableViewCell.m */,
+				18DBD6211D25227F00A2FD7F /* HotelDetailMainViewController.h */,
+				18DBD6221D25227F00A2FD7F /* HotelDetailMainViewController.m */,
+				18ADD0A71DB6246300AA8216 /* UITableViewHotelRoomHeaderView.h */,
+				18ADD0A81DB6246300AA8216 /* UITableViewHotelRoomHeaderView.m */,
+				18FE69AA1D697F0D003FC66E /* HotelDetailTableViewCell.h */,
+				18FE69AB1D697F0D003FC66E /* HotelDetailTableViewCell.m */,
+				18FE69AD1D69831A003FC66E /* HotelDetailHeaderView.h */,
+				18FE69AE1D69831A003FC66E /* HotelDetailHeaderView.m */,
+				1843AA7A1D6A93A500EEF980 /* u1002.jpg */,
+				18DBD61E1D25019100A2FD7F /* BusinessTravelExplainController.h */,
+				18DBD61F1D25019100A2FD7F /* BusinessTravelExplainController.m */,
+			);
+			name = "HotelControllersFile(酒店订购)";
+			path = HotelControllersFile;
+			sourceTree = "<group>";
+		};
+		18745F241D22801E00731F7D /* XCInformationsClasses */ = {
+			isa = PBXGroup;
+			children = (
+				18745F251D22803A00731F7D /* HotelInformation.h */,
+				18745F261D22803A00731F7D /* HotelInformation.m */,
+				184155181D546AE200086370 /* TrainticketInformation.h */,
+				184155191D546AE200086370 /* TrainticketInformation.m */,
+				18F6A92F1D55B39300083120 /* TrainticketOrderInformation.h */,
+				18F6A9301D55B39300083120 /* TrainticketOrderInformation.m */,
+				1841551B1D546B3400086370 /* FlightInformation.h */,
+				1841551C1D546B3400086370 /* FlightInformation.m */,
+				18F391EA1D59717000EB7B57 /* FlightOrderInformation.h */,
+				18F391EB1D59717000EB7B57 /* FlightOrderInformation.m */,
+				188009B81D2A630F00822B43 /* UserHotelOrderInformation.h */,
+				188009B91D2A630F00822B43 /* UserHotelOrderInformation.m */,
+				18D1FFF11D65B73500B28F88 /* UserPersonalOrderInformation.h */,
+				18D1FFF21D65B73500B28F88 /* UserPersonalOrderInformation.m */,
+			);
+			path = XCInformationsClasses;
+			sourceTree = "<group>";
+		};
+		1875BF871DC0A2D80030C863 /* HotelServiceImagesResources */ = {
+			isa = PBXGroup;
+			children = (
+				1875BF8C1DC0A4A70030C863 /* hotelParkImage.jpg */,
+				1875BF8D1DC0A4A70030C863 /* hotelWifiImage.jpg */,
+			);
+			path = HotelServiceImagesResources;
+			sourceTree = "<group>";
+		};
+		1889A18D1D5494A7008E5CBF /* TrainTicketAuxiliaryView */ = {
+			isa = PBXGroup;
+			children = (
+				18F6A9321D55B69B00083120 /* TrainTicketTableHeaderView.h */,
+				18F6A9331D55B69B00083120 /* TrainTicketTableHeaderView.m */,
+				1882709A1D8684B500907CAE /* TrainTicketSearchListLayerView.h */,
+				1882709B1D8684B500907CAE /* TrainTicketSearchListLayerView.m */,
+				18085C511D87A0F800B81FFB /* TrainTicketSeatSelectedLayerView.h */,
+				18085C521D87A0F800B81FFB /* TrainTicketSeatSelectedLayerView.m */,
+				18D3202C1D98C1250015EED4 /* TrainTicketAllSiftConditionLayerView.h */,
+				18D3202D1D98C1250015EED4 /* TrainTicketAllSiftConditionLayerView.m */,
+			);
+			path = TrainTicketAuxiliaryView;
+			sourceTree = "<group>";
+		};
+		1889A18E1D54951F008E5CBF /* SupplementUserInforControllers(补充出行人员信息) */ = {
+			isa = PBXGroup;
+			children = (
+				1889A18F1D54951F008E5CBF /* RelatedCNTViewController.h */,
+				1889A1901D54951F008E5CBF /* RelatedCNTViewController.m */,
+				1889A1951D5499F4008E5CBF /* AddTrainTicketUserInforController.h */,
+				1889A1961D5499F4008E5CBF /* AddTrainTicketUserInforController.m */,
+				1846F5931D66DED000B3125F /* SelectedUserInforViewController.h */,
+				1846F5941D66DED000B3125F /* SelectedUserInforViewController.m */,
+				1846F5961D66E00100B3125F /* SelectedUserInforTableViewCell.h */,
+				1846F5971D66E00100B3125F /* SelectedUserInforTableViewCell.m */,
+				1889A1921D549642008E5CBF /* SetupInforForTrainViewController.h */,
+				1889A1931D549642008E5CBF /* SetupInforForTrainViewController.m */,
+			);
+			name = "SupplementUserInforControllers(补充出行人员信息)";
+			path = SupplementUserInforControllers;
+			sourceTree = "<group>";
+		};
+		1889A1981D549A80008E5CBF /* SupplementOrderInforControllers(补充订单信息) */ = {
+			isa = PBXGroup;
+			children = (
+				1889A1991D54A076008E5CBF /* InvoiceInforViewController.h */,
+				1889A19A1D54A076008E5CBF /* InvoiceInforViewController.m */,
+				1889A19C1D54A0BA008E5CBF /* CreditCardInforController.h */,
+				1889A19D1D54A0BA008E5CBF /* CreditCardInforController.m */,
+				18F391E11D5832A700EB7B57 /* TrainPassStationController.h */,
+				18F391E21D5832A700EB7B57 /* TrainPassStationController.m */,
+				18F391E41D5834E500EB7B57 /* ReturnedMoneyInstructionsController.h */,
+				18F391E51D5834E500EB7B57 /* ReturnedMoneyInstructionsController.m */,
+			);
+			name = "SupplementOrderInforControllers(补充订单信息)";
+			path = SupplementOrderInforControllers;
+			sourceTree = "<group>";
+		};
+		188D745B1D212BF800884933 /* PersonalSetupControllersFiles */ = {
+			isa = PBXGroup;
+			children = (
+				188D745C1D212C0500884933 /* SetupViewController.h */,
+				188D745D1D212C0500884933 /* SetupViewController.m */,
+			);
+			path = PersonalSetupControllersFiles;
+			sourceTree = "<group>";
+		};
+		18924E351D26687E0097188C /* HotelAffiliatedView */ = {
+			isa = PBXGroup;
+			children = (
+				18924E361D26687E0097188C /* HotelSearcSetupBottomView.h */,
+				18924E371D26687E0097188C /* HotelSearcSetupBottomView.m */,
+				18F5BCE61D2949A600C97386 /* MoreSiftRequirementController.h */,
+				18F5BCE71D2949A600C97386 /* MoreSiftRequirementController.m */,
+				18301FED1DB8AFB6007B94B9 /* MoreSiftRequirementAreaTableViewCell.h */,
+				18301FEE1DB8AFB6007B94B9 /* MoreSiftRequirementAreaTableViewCell.m */,
+				181AFD601D360FC300F2B844 /* DefaultotelRecommendSearchLayerView.h */,
+				181AFD611D360FC300F2B844 /* DefaultotelRecommendSearchLayerView.m */,
+				181AFD631D36112B00F2B844 /* PriceStarSearchLayerView.h */,
+				181AFD641D36112B00F2B844 /* PriceStarSearchLayerView.m */,
+				1843AA851D6AF59200EEF980 /* HotelRoomDetailView.h */,
+				1843AA861D6AF59200EEF980 /* HotelRoomDetailView.m */,
+				187C8DB21D6D920C00A8A628 /* ReviseMoveIntoDateView.h */,
+				187C8DB31D6D920C00A8A628 /* ReviseMoveIntoDateView.m */,
+			);
+			path = HotelAffiliatedView;
+			sourceTree = "<group>";
+		};
+		1892AD691DC1A90000E4ADDF /* PersonalReturnTrainTicketOperation */ = {
+			isa = PBXGroup;
+			children = (
+				1892AD6A1DC1A92C00E4ADDF /* TrainTicketReturnController.h */,
+				1892AD6B1DC1A92C00E4ADDF /* TrainTicketReturnController.m */,
+				1899320F1DFFDFF2002701FF /* UIUserOperationButton.h */,
+				189932101DFFDFF2002701FF /* UIUserOperationButton.m */,
+			);
+			path = PersonalReturnTrainTicketOperation;
+			sourceTree = "<group>";
+		};
+		18ADA5A21D20C6EB003188A4 /* frameworkinfor */ = {
+			isa = PBXGroup;
+			children = (
+				186E9CBC1D260FB3007B6540 /* SystemConfiguration.framework */,
+				186E9CB71D260EBD007B6540 /* MAMap */,
+				1815DA101D23CB1A00F86073 /* CoreLocation.framework */,
+				1815DA0E1D23CB1100F86073 /* MapKit.framework */,
+				18ADA5A81D20C7B0003188A4 /* Security.framework */,
+				18ADA5A31D20C716003188A4 /* libsqlite3.tbd */,
+				18ADA5A01D20C6D2003188A4 /* libz.tbd */,
+				18ADA59E1D20C6BF003188A4 /* CoreTelephony.framework */,
+			);
+			name = frameworkinfor;
+			sourceTree = "<group>";
+		};
+		18ADA5A51D20C765003188A4 /* UmengSDK */ = {
+			isa = PBXGroup;
+			children = (
+				18ADA5A61D20C774003188A4 /* UMMobClick.framework */,
+			);
+			path = UmengSDK;
+			sourceTree = "<group>";
+		};
+		18ADA5AA1D20F9C4003188A4 /* XCAPPAFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				18EEB2941D20FAD3008D3580 /* AFNetworkingFiles */,
+			);
+			path = XCAPPAFNetworking;
+			sourceTree = "<group>";
+		};
+		18B0734F1D33759F00A8C6EC /* WorkerManageSetControllers(员工管理) */ = {
+			isa = PBXGroup;
+			children = (
+				18B073501D33760500A8C6EC /* WorkerManageSettingController.h */,
+				18B073511D33760500A8C6EC /* WorkerManageSettingController.m */,
+				18D1FFF41D661CA900B28F88 /* WorkerManageTableViewCell.h */,
+				18D1FFF51D661CA900B28F88 /* WorkerManageTableViewCell.m */,
+				18B073531D33766B00A8C6EC /* AddNewWorkerViewController.h */,
+				18B073541D33766B00A8C6EC /* AddNewWorkerViewController.m */,
+				180C2FC31D348D53004DC1A0 /* AddMoveIntoPersonnelViewController.h */,
+				180C2FC41D348D53004DC1A0 /* AddMoveIntoPersonnelViewController.m */,
+			);
+			name = "WorkerManageSetControllers(员工管理)";
+			path = WorkerManageSetControllers;
+			sourceTree = "<group>";
+		};
+		18CF5DAD1D23D04900E00E09 /* XCAPPLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				18CF5DAE1D23D06A00E00E09 /* XCLocationManager.h */,
+				18CF5DAF1D23D06A00E00E09 /* XCLocationManager.m */,
+			);
+			path = XCAPPLocationManager;
+			sourceTree = "<group>";
+		};
+		18D52DCB1D3CAA0D00026E78 /* XCAPPUserAccountControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18D52DCC1D3CAA2000026E78 /* UserLoginViewController.h */,
+				18D52DCD1D3CAA2000026E78 /* UserLoginViewController.m */,
+				18D52DCF1D3CAAA000026E78 /* UserReSetPwdViewController.h */,
+				18D52DD01D3CAAA000026E78 /* UserReSetPwdViewController.m */,
+				18D52DD21D3CAADD00026E78 /* ForgetPasswordViewController.h */,
+				18D52DD31D3CAADD00026E78 /* ForgetPasswordViewController.m */,
+				18D52DD51D3CAB2B00026E78 /* ForgetGetVerCodeController.h */,
+				18D52DD61D3CAB2B00026E78 /* ForgetGetVerCodeController.m */,
+				18D52DD81D3CAB6F00026E78 /* ForgetResetPwdController.h */,
+				18D52DD91D3CAB6F00026E78 /* ForgetResetPwdController.m */,
+			);
+			path = XCAPPUserAccountControllers;
+			sourceTree = "<group>";
+		};
+		18DBD5DC1D24FB5500A2FD7F /* XCFMImage */ = {
+			isa = PBXGroup;
+			children = (
+				18DBD5DD1D24FB5500A2FD7F /* FMImage.bundle */,
+				18DBD5DE1D24FB5500A2FD7F /* FMImageModel.h */,
+				18DBD5DF1D24FB5500A2FD7F /* FMImageModel.m */,
+				18DBD5E01D24FB5500A2FD7F /* FMImageToolbar.h */,
+				18DBD5E11D24FB5500A2FD7F /* FMImageToolbar.m */,
+				18DBD5E21D24FB5500A2FD7F /* FMImageView.h */,
+				18DBD5E31D24FB5500A2FD7F /* FMImageView.m */,
+				18DBD5E41D24FB5500A2FD7F /* ImageBrowse.h */,
+				18DBD5E51D24FB5500A2FD7F /* ImageBrowse.m */,
+				18DBD5E61D24FB5500A2FD7F /* ImageContentScrollView.h */,
+				18DBD5E71D24FB5500A2FD7F /* ImageContentScrollView.m */,
+				18DBD5E81D24FB5500A2FD7F /* LoadProgressView.h */,
+				18DBD5E91D24FB5500A2FD7F /* LoadProgressView.m */,
+			);
+			path = XCFMImage;
+			sourceTree = "<group>";
+		};
+		18DBD5F11D24FB7F00A2FD7F /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				18DBD5F21D24FB7F00A2FD7F /* NSData+ImageContentType.h */,
+				18DBD5F31D24FB7F00A2FD7F /* NSData+ImageContentType.m */,
+				18DBD5F41D24FB7F00A2FD7F /* SDImageCache.h */,
+				18DBD5F51D24FB7F00A2FD7F /* SDImageCache.m */,
+				18DBD5F61D24FB7F00A2FD7F /* SDWebImageCompat.h */,
+				18DBD5F71D24FB7F00A2FD7F /* SDWebImageCompat.m */,
+				18DBD5F81D24FB7F00A2FD7F /* SDWebImageDecoder.h */,
+				18DBD5F91D24FB7F00A2FD7F /* SDWebImageDecoder.m */,
+				18DBD5FA1D24FB7F00A2FD7F /* SDWebImageDownloader.h */,
+				18DBD5FB1D24FB7F00A2FD7F /* SDWebImageDownloader.m */,
+				18DBD5FC1D24FB7F00A2FD7F /* SDWebImageDownloaderOperation.h */,
+				18DBD5FD1D24FB7F00A2FD7F /* SDWebImageDownloaderOperation.m */,
+				18DBD5FE1D24FB7F00A2FD7F /* SDWebImageManager.h */,
+				18DBD5FF1D24FB7F00A2FD7F /* SDWebImageManager.m */,
+				18DBD6001D24FB7F00A2FD7F /* SDWebImageOperation.h */,
+				18DBD6011D24FB7F00A2FD7F /* SDWebImagePrefetcher.h */,
+				18DBD6021D24FB7F00A2FD7F /* SDWebImagePrefetcher.m */,
+				18DBD6031D24FB7F00A2FD7F /* UIButton+WebCache.h */,
+				18DBD6041D24FB7F00A2FD7F /* UIButton+WebCache.m */,
+				18DBD6051D24FB7F00A2FD7F /* UIImage+GIF.h */,
+				18DBD6061D24FB7F00A2FD7F /* UIImage+GIF.m */,
+				18DBD6071D24FB7F00A2FD7F /* UIImage+MultiFormat.h */,
+				18DBD6081D24FB7F00A2FD7F /* UIImage+MultiFormat.m */,
+				18DBD6091D24FB7F00A2FD7F /* UIImageView+WebCache.h */,
+				18DBD60A1D24FB7F00A2FD7F /* UIImageView+WebCache.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		18DBD6171D24FC1E00A2FD7F /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				18DBD6181D24FC1E00A2FD7F /* MBProgressHUD+Add.h */,
+				18DBD6191D24FC1E00A2FD7F /* MBProgressHUD+Add.m */,
+				18DBD61A1D24FC1E00A2FD7F /* MBProgressHUD.h */,
+				18DBD61B1D24FC1E00A2FD7F /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		18E157701D2BA1DF001C8B0B /* HotelSearchControllers(通过位置/酒店名) */ = {
+			isa = PBXGroup;
+			children = (
+				18E157711D2BA223001C8B0B /* LocationOrNameSearchController.h */,
+				18E157721D2BA223001C8B0B /* LocationOrNameSearchController.m */,
+			);
+			name = "HotelSearchControllers(通过位置/酒店名)";
+			path = HotelSearchControllers;
+			sourceTree = "<group>";
+		};
+		18EEB2941D20FAD3008D3580 /* AFNetworkingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				18EEB2951D20FAD3008D3580 /* AFHTTPClient.h */,
+				18EEB2961D20FAD3008D3580 /* AFHTTPClient.m */,
+				18EEB2971D20FAD3008D3580 /* AFHTTPRequestOperation.h */,
+				18EEB2981D20FAD3008D3580 /* AFHTTPRequestOperation.m */,
+				18EEB2991D20FAD3008D3580 /* AFImageRequestOperation.h */,
+				18EEB29A1D20FAD3008D3580 /* AFImageRequestOperation.m */,
+				18EEB29B1D20FAD3008D3580 /* AFJSONRequestOperation.h */,
+				18EEB29C1D20FAD3008D3580 /* AFJSONRequestOperation.m */,
+				18EEB29D1D20FAD3008D3580 /* AFNetworkActivityIndicatorManager.h */,
+				18EEB29E1D20FAD3008D3580 /* AFNetworkActivityIndicatorManager.m */,
+				18EEB29F1D20FAD3008D3580 /* AFNetworking.h */,
+				18EEB2A01D20FAD3008D3580 /* AFPropertyListRequestOperation.h */,
+				18EEB2A11D20FAD3008D3580 /* AFPropertyListRequestOperation.m */,
+				18EEB2A21D20FAD3008D3580 /* AFURLConnectionOperation.h */,
+				18EEB2A31D20FAD3008D3580 /* AFURLConnectionOperation.m */,
+				18EEB2A41D20FAD3008D3580 /* AFXMLRequestOperation.h */,
+				18EEB2A51D20FAD3008D3580 /* AFXMLRequestOperation.m */,
+				18EEB2A61D20FAD3008D3580 /* JSONKit.h */,
+				18EEB2A71D20FAD3008D3580 /* JSONKit.m */,
+			);
+			path = AFNetworkingFiles;
+			sourceTree = "<group>";
+		};
+		18EEB2B21D20FB4D008D3580 /* XCAPPWebRequest */ = {
+			isa = PBXGroup;
+			children = (
+				18EEB2B31D20FB9F008D3580 /* WebAPIDefine.h */,
+				18EEB2B41D20FC39008D3580 /* WebAPIResponse.h */,
+				18EEB2B51D20FC39008D3580 /* WebAPIResponse.m */,
+				18EEB2B71D20FD51008D3580 /* HTTPClient.h */,
+				18EEB2B81D20FD51008D3580 /* HTTPClient.m */,
+				18EEB2BA1D20FEB9008D3580 /* HTTPClient+PersonalInfor.h */,
+				18EEB2BB1D20FEB9008D3580 /* HTTPClient+PersonalInfor.m */,
+				1815DA031D23AAA700F86073 /* HTTPClient+HotelsRequest.h */,
+				1815DA041D23AAA700F86073 /* HTTPClient+HotelsRequest.m */,
+				181AFD571D35E58100F2B844 /* HTTPClient+OrderRequest.h */,
+				181AFD581D35E58100F2B844 /* HTTPClient+OrderRequest.m */,
+				18B32ADC1D9EA24E007A17E4 /* HTTPClient+FlightInforRequest.h */,
+				18B32ADD1D9EA24E007A17E4 /* HTTPClient+FlightInforRequest.m */,
+				1843130D1D5B2B7A00BF072F /* HTTPClient+TrainTickeRequest.h */,
+				1843130E1D5B2B7A00BF072F /* HTTPClient+TrainTickeRequest.m */,
+			);
+			path = XCAPPWebRequest;
+			sourceTree = "<group>";
+		};
+		18F5BCE91D29577700C97386 /* HotelCollectControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18F5BCEA1D29579200C97386 /* HotelPersonalCollectController.h */,
+				18F5BCEB1D29579200C97386 /* HotelPersonalCollectController.m */,
+			);
+			path = HotelCollectControllers;
+			sourceTree = "<group>";
+		};
+		18F6A9601D5732FA00083120 /* TrainTicketOrderInforControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18F6A9611D5732FA00083120 /* FillTrainTicketOrderViewController.h */,
+				18F6A9621D5732FA00083120 /* FillTrainTicketOrderViewController.m */,
+				18F6A9641D57331800083120 /* FillTrainTicketOrderSecondController.h */,
+				18F6A9651D57331800083120 /* FillTrainTicketOrderSecondController.m */,
+				18F6A9671D57335300083120 /* CheckTrainOrderController.h */,
+				18F6A9681D57335300083120 /* CheckTrainOrderController.m */,
+				186551D51DBF6EE8008E2192 /* TrainTicketOrderDetailInforView.h */,
+				186551D61DBF6EE8008E2192 /* TrainTicketOrderDetailInforView.m */,
+			);
+			path = TrainTicketOrderInforControllers;
+			sourceTree = "<group>";
+		};
 		18FA1A501D1ADA1000FEEE61 = {
 			isa = PBXGroup;
 			children = (
+				18ADA5A21D20C6EB003188A4 /* frameworkinfor */,
 				18FA1A5B1D1ADA1000FEEE61 /* XCAPP */,
 				18FA1A5A1D1ADA1000FEEE61 /* Products */,
 			);
@@ -58,15 +1382,24 @@
 		18FA1A5B1D1ADA1000FEEE61 /* XCAPP */ = {
 			isa = PBXGroup;
 			children = (
+				187F02071E0B679C00E66D58 /* XCAPP.entitlements */,
+				18FA1A761D1ADFFC00FEEE61 /* XCAPPProductResources(多媒体资源) */,
+				18FA1A771D1ADFFC00FEEE61 /* XCAPPProductVendors(第三方资源) */,
+				18FA1A781D1ADFFC00FEEE61 /* XCAPPProductHUIKit(项目Kit) */,
+				18FA1A7A1D1ADFFC00FEEE61 /* XCAPPProductPublicClass(系统公共类) */,
+				18FA1A7E1D1ADFFC00FEEE61 /* XCAPPProductViewControllers(项目模块文件) */,
+				18FA1A5C1D1ADA1000FEEE61 /* Supporting Files */,
 				18FA1A5F1D1ADA1000FEEE61 /* AppDelegate.h */,
 				18FA1A601D1ADA1000FEEE61 /* AppDelegate.m */,
+				1841A2A71D48A43700DECE2F /* AppDelegate+ServeOperation.h */,
+				1841A2A81D48A43700DECE2F /* AppDelegate+ServeOperation.m */,
+				18ADA59B1D20C5BD003188A4 /* AppDelegate+AppDelegateExpandVendor.h */,
+				18ADA59C1D20C5BD003188A4 /* AppDelegate+AppDelegateExpandVendor.m */,
 				18FA1A621D1ADA1000FEEE61 /* ViewController.h */,
 				18FA1A631D1ADA1000FEEE61 /* ViewController.m */,
-				18FA1A651D1ADA1000FEEE61 /* Main.storyboard */,
-				18FA1A681D1ADA1000FEEE61 /* Assets.xcassets */,
-				18FA1A6A1D1ADA1000FEEE61 /* LaunchScreen.storyboard */,
 				18FA1A6D1D1ADA1000FEEE61 /* Info.plist */,
-				18FA1A5C1D1ADA1000FEEE61 /* Supporting Files */,
+				18FA1A731D1ADA4C00FEEE61 /* XCAPP-Prefix.pch */,
+				18FA1A741D1ADB8B00FEEE61 /* Images.xcassets */,
 			);
 			path = XCAPP;
 			sourceTree = "<group>";
@@ -77,6 +1410,178 @@
 				18FA1A5D1D1ADA1000FEEE61 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18FA1A761D1ADFFC00FEEE61 /* XCAPPProductResources(多媒体资源) */ = {
+			isa = PBXGroup;
+			children = (
+				186551D01DBF34FA008E2192 /* APPOtherImagesResources */,
+				185806BA1D6EBE8E002FCE96 /* APPHotelImitateImagesResources */,
+				1843AA7C1D6AC47400EEF980 /* APPMainImagesResources */,
+			);
+			name = "XCAPPProductResources(多媒体资源)";
+			path = XCAPPProductResources;
+			sourceTree = "<group>";
+		};
+		18FA1A771D1ADFFC00FEEE61 /* XCAPPProductVendors(第三方资源) */ = {
+			isa = PBXGroup;
+			children = (
+				18DBD6171D24FC1E00A2FD7F /* MBProgressHUD */,
+				18DBD5F11D24FB7F00A2FD7F /* SDWebImage */,
+				1815DA061D23ADA800F86073 /* SVPullToRefresh */,
+				183C473C1D2107240084693D /* OpenUDIDUIKit */,
+				18ADA5AA1D20F9C4003188A4 /* XCAPPAFNetworking */,
+				18ADA5A51D20C765003188A4 /* UmengSDK */,
+			);
+			name = "XCAPPProductVendors(第三方资源)";
+			path = XCAPPProductVendors;
+			sourceTree = "<group>";
+		};
+		18FA1A781D1ADFFC00FEEE61 /* XCAPPProductHUIKit(项目Kit) */ = {
+			isa = PBXGroup;
+			children = (
+				183989241D64072E007CF4B6 /* XCAPPCalendarClasses */,
+				183F22551D5A03690002AEA5 /* ASLocalSystemNotification */,
+				18DBD5DC1D24FB5500A2FD7F /* XCFMImage */,
+				18CF5DAD1D23D04900E00E09 /* XCAPPLocationManager */,
+				185CC6A01D215B7D00417D56 /* XCAPPFMSettings */,
+				185B5C771D1B807E0006CD07 /* XCAPPFunctions */,
+				18FA1AC21D1AE6B900FEEE61 /* XCAPPCategoryFiles */,
+				18FA1A991D1AE63500FEEE61 /* XCAPPHUIKit */,
+				18FA1A851D1AE58100FEEE61 /* XCAPPProductFontAwesome */,
+				18FA1A791D1ADFFC00FEEE61 /* XCAPPThemeManager */,
+				185B5C761D1B7F7A0006CD07 /* XCAPPProductService.h */,
+				18EEB2B21D20FB4D008D3580 /* XCAPPWebRequest */,
+			);
+			name = "XCAPPProductHUIKit(项目Kit)";
+			path = XCAPPProductHUIKit;
+			sourceTree = "<group>";
+		};
+		18FA1A791D1ADFFC00FEEE61 /* XCAPPThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				185DE7551D22557A00DDC5FC /* XCAPPProEnumUIKit.h */,
+				18FA1A801D1AE03800FEEE61 /* XCAPPThemeColor.h */,
+				18FA1A821D1AE07600FEEE61 /* XCAPPThemeFontSize.h */,
+				18FA1A811D1AE05300FEEE61 /* XCAPPThemeTextContent.h */,
+				18FA1A831D1AE0BE00FEEE61 /* XCAPPThemeScreenSize.h */,
+				18FA1A841D1AE29600FEEE61 /* XCAPPThemeUIKit.h */,
+				18D52DDD1D3CDF4000026E78 /* XCAPPNotificationNameUIKit.h */,
+			);
+			path = XCAPPThemeManager;
+			sourceTree = "<group>";
+		};
+		18FA1A7A1D1ADFFC00FEEE61 /* XCAPPProductPublicClass(系统公共类) */ = {
+			isa = PBXGroup;
+			children = (
+				184A245F1D2F766C00531065 /* XCAPPTextField */,
+				185CC69C1D215B1C00417D56 /* CurrentUserInforFiles */,
+				185B5C6F1D1B7D680006CD07 /* XCAPPBaseControllers */,
+				18FA1A7B1D1ADFFC00FEEE61 /* TableViewDataSource */,
+			);
+			name = "XCAPPProductPublicClass(系统公共类)";
+			path = XCAPPProductPublicClass;
+			sourceTree = "<group>";
+		};
+		18FA1A7B1D1ADFFC00FEEE61 /* TableViewDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				18FA1A7C1D1ADFFC00FEEE61 /* DataPage.h */,
+				18FA1A7D1D1ADFFC00FEEE61 /* DataPage.m */,
+				18745F1E1D227E3600731F7D /* XCBaseUITableViewCell.h */,
+				18745F1F1D227E3600731F7D /* XCBaseUITableViewCell.m */,
+			);
+			path = TableViewDataSource;
+			sourceTree = "<group>";
+		};
+		18FA1A7E1D1ADFFC00FEEE61 /* XCAPPProductViewControllers(项目模块文件) */ = {
+			isa = PBXGroup;
+			children = (
+				183989401D640B81007CF4B6 /* XCAPPPublicControllers(公用界面内容) */,
+				18D52DCB1D3CAA0D00026E78 /* XCAPPUserAccountControllers */,
+				180C2FB61D33D950004DC1A0 /* PersonalOrderInforControllers(订单信息) */,
+				18745F241D22801E00731F7D /* XCInformationsClasses */,
+				185B5C8C1D1B8A540006CD07 /* HomePageMainControllers(首页) */,
+				185B5C8B1D1B8A540006CD07 /* AuthorizeMainControllers(授权) */,
+				185B5C8D1D1B8A540006CD07 /* ItineraryMainControllers(行程) */,
+				185B5C8E1D1B8A540006CD07 /* PersonalInfoMainControllers(我的) */,
+				185B5C9B1D1B8B240006CD07 /* XCTabBarController.h */,
+				185B5C9C1D1B8B240006CD07 /* XCTabBarController.m */,
+			);
+			name = "XCAPPProductViewControllers(项目模块文件)";
+			path = XCAPPProductViewControllers;
+			sourceTree = "<group>";
+		};
+		18FA1A851D1AE58100FEEE61 /* XCAPPProductFontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				18FA1A861D1AE58100FEEE61 /* Bootstrap */,
+				18FA1A891D1AE58100FEEE61 /* FontAwesome+iOS */,
+			);
+			path = XCAPPProductFontAwesome;
+			sourceTree = "<group>";
+		};
+		18FA1A861D1AE58100FEEE61 /* Bootstrap */ = {
+			isa = PBXGroup;
+			children = (
+				18FA1A871D1AE58100FEEE61 /* UIButton+Bootstrap.h */,
+				18FA1A881D1AE58100FEEE61 /* UIButton+Bootstrap.m */,
+			);
+			path = Bootstrap;
+			sourceTree = "<group>";
+		};
+		18FA1A891D1AE58100FEEE61 /* FontAwesome+iOS */ = {
+			isa = PBXGroup;
+			children = (
+				18FA1A8A1D1AE58100FEEE61 /* FAImageView.h */,
+				18FA1A8B1D1AE58100FEEE61 /* FAImageView.m */,
+				18FA1A8C1D1AE58100FEEE61 /* FontAwesome.h */,
+				18FA1A8D1D1AE58100FEEE61 /* FontAwesome.m */,
+				18FA1A8E1D1AE58100FEEE61 /* LvyeFontAwesome.ttf */,
+				18FA1A8F1D1AE58100FEEE61 /* NSString+FontAwesome.h */,
+				18FA1A901D1AE58100FEEE61 /* NSString+FontAwesome.m */,
+				18FA1A911D1AE58100FEEE61 /* UIFont+FontAwesome.h */,
+				18FA1A921D1AE58100FEEE61 /* UIFont+FontAwesome.m */,
+			);
+			path = "FontAwesome+iOS";
+			sourceTree = "<group>";
+		};
+		18FA1A991D1AE63500FEEE61 /* XCAPPHUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				18FA1A9A1D1AE63500FEEE61 /* HUIDebug.h */,
+				18FA1A9B1D1AE63500FEEE61 /* HUIKeyboard.h */,
+				18FA1A9C1D1AE63500FEEE61 /* HUIKeyboard.m */,
+				18FA1A9D1D1AE63500FEEE61 /* HUIKit.h */,
+				18FA1A9E1D1AE63500FEEE61 /* HUILoadMoreCell.h */,
+				18FA1A9F1D1AE63500FEEE61 /* HUILoadMoreCell.m */,
+				18FA1AA01D1AE63500FEEE61 /* HUILocationManager.h */,
+				18FA1AA11D1AE63500FEEE61 /* HUILocationManager.m */,
+				18FA1AA21D1AE63500FEEE61 /* NSDateFormatter+HUIAddition.h */,
+				18FA1AA31D1AE63500FEEE61 /* NSDateFormatter+HUIAddition.m */,
+				18FA1AA41D1AE63500FEEE61 /* UIDevice+HUIAddtion.h */,
+				18FA1AA51D1AE63500FEEE61 /* UIDevice+HUIAddtion.m */,
+				18FA1AA61D1AE63500FEEE61 /* UIScreen+HUIAddtion.h */,
+				18FA1AA71D1AE63500FEEE61 /* UIScreen+HUIAddtion.m */,
+			);
+			path = XCAPPHUIKit;
+			sourceTree = "<group>";
+		};
+		18FA1AC21D1AE6B900FEEE61 /* XCAPPCategoryFiles */ = {
+			isa = PBXGroup;
+			children = (
+				18FA1AC31D1AE6B900FEEE61 /* NSDate+TimeAgo.h */,
+				18FA1AC41D1AE6B900FEEE61 /* NSDate+TimeAgo.m */,
+				18FA1AC51D1AE6B900FEEE61 /* NSDate+TimeAgo.podspec */,
+				18FA1AC81D1AE6B900FEEE61 /* NSDateTimeAgo.bundle */,
+				18FA1AC91D1AE6B900FEEE61 /* UIColor+RCColor.h */,
+				18FA1ACA1D1AE6B900FEEE61 /* UIColor+RCColor.m */,
+				18FA1ACB1D1AE6B900FEEE61 /* UIImage+RCImage.h */,
+				18FA1ACC1D1AE6B900FEEE61 /* UIImage+RCImage.m */,
+				18FA1ACD1D1AE6B900FEEE61 /* UIView+ViewCategory.h */,
+				18FA1ACE1D1AE6B900FEEE61 /* UIView+ViewCategory.m */,
+			);
+			path = XCAPPCategoryFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,11 +1610,19 @@
 		18FA1A511D1ADA1000FEEE61 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = ZhangLiGuang;
 				TargetAttributes = {
 					18FA1A581D1ADA1000FEEE61 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6229KYTQKY;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -136,9 +1649,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18FA1A6C1D1ADA1000FEEE61 /* LaunchScreen.storyboard in Resources */,
-				18FA1A691D1ADA1000FEEE61 /* Assets.xcassets in Resources */,
-				18FA1A671D1ADA1000FEEE61 /* Main.storyboard in Resources */,
+				185806C31D6EBE8E002FCE96 /* hotelIcon3.png in Resources */,
+				1839893E1D64072E007CF4B6 /* chack.png in Resources */,
+				18ADD0A61DB6033E00AA8216 /* userDeleteImage.png in Resources */,
+				1843AA821D6AC47400EEF980 /* homeHotelImage.jpg in Resources */,
+				185806C21D6EBE8E002FCE96 /* hotelIcon2.png in Resources */,
+				1843AA7B1D6A93A500EEF980 /* u1002.jpg in Resources */,
+				18DBD5EA1D24FB5500A2FD7F /* FMImage.bundle in Resources */,
+				1875BF8F1DC0A4A70030C863 /* hotelWifiImage.jpg in Resources */,
+				1843AA831D6AC47400EEF980 /* homeImage.jpg in Resources */,
+				1875BF8E1DC0A4A70030C863 /* hotelParkImage.jpg in Resources */,
+				1843AA811D6AC47400EEF980 /* homeFlightImage.jpg in Resources */,
+				18FA1A751D1ADB8B00FEEE61 /* Images.xcassets in Resources */,
+				18744C9C1D70501700A99F24 /* homeTaxiImage.png in Resources */,
+				18FA1AD21D1AE6B900FEEE61 /* NSDateTimeAgo.bundle in Resources */,
+				185806C51D6EBE8E002FCE96 /* hotelIcon5.png in Resources */,
+				185806C41D6EBE8E002FCE96 /* hotelIcon4.png in Resources */,
+				18FA1AD01D1AE6B900FEEE61 /* NSDate+TimeAgo.podspec in Resources */,
+				185806C11D6EBE8E002FCE96 /* hotelIcon1.png in Resources */,
+				1843AA841D6AC47400EEF980 /* homeTrainTicketImage.jpg in Resources */,
+				18EDB7671DAE372100E21744 /* FromToImage.png in Resources */,
+				18FA1A961D1AE58100FEEE61 /* LvyeFontAwesome.ttf in Resources */,
+				185806C61D6EBE8E002FCE96 /* hotelIcon6.png in Resources */,
+				186551D21DBF34FA008E2192 /* nr_selected.png in Resources */,
+				186551D41DBF3DFD008E2192 /* userRightCloseImageView.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,32 +1683,185 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181AFD751D36432700F2B844 /* HotelReserveMainViewController.m in Sources */,
+				18DBD6111D24FB7F00A2FD7F /* SDWebImageManager.m in Sources */,
+				181AFD621D360FC300F2B844 /* DefaultotelRecommendSearchLayerView.m in Sources */,
+				18DBD6121D24FB7F00A2FD7F /* SDWebImagePrefetcher.m in Sources */,
+				1841A2A91D48A43700DECE2F /* AppDelegate+ServeOperation.m in Sources */,
+				18EEB2AD1D20FAD3008D3580 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				18085C561D8808B900B81FFB /* OrderImmediatePayViewController.m in Sources */,
+				18685FC31D7D418D00EC320C /* OrderMenuSelectedBGView.m in Sources */,
+				18EEB2BC1D20FEB9008D3580 /* HTTPClient+PersonalInfor.m in Sources */,
+				18FA1A7F1D1ADFFC00FEEE61 /* DataPage.m in Sources */,
+				18DBD6231D25227F00A2FD7F /* HotelDetailMainViewController.m in Sources */,
+				1840CCEC1D631C3D009D780A /* FlightAccurateSiftController.m in Sources */,
+				183EC8E11D928A2600BF7659 /* CityInforForTrainTicketTableViewCell.m in Sources */,
+				18F6A9341D55B69B00083120 /* TrainTicketTableHeaderView.m in Sources */,
+				18F6A9371D55B7BB00083120 /* TrainTicketTableViewCell.m in Sources */,
+				1889A19E1D54A0BA008E5CBF /* CreditCardInforController.m in Sources */,
+				1839893F1D64072E007CF4B6 /* NSDate+WQCalendarLogic.m in Sources */,
+				18F391F21D59CCE700EB7B57 /* FlightNumberTableViewCell.m in Sources */,
+				18FE69AF1D69831A003FC66E /* HotelDetailHeaderView.m in Sources */,
+				18745F231D227FCA00731F7D /* HotelInforTableViewCell.m in Sources */,
+				18085C531D87A0F800B81FFB /* TrainTicketSeatSelectedLayerView.m in Sources */,
+				18DBD60B1D24FB7F00A2FD7F /* NSData+ImageContentType.m in Sources */,
+				18F5BCE81D2949A600C97386 /* MoreSiftRequirementController.m in Sources */,
+				18E157731D2BA223001C8B0B /* LocationOrNameSearchController.m in Sources */,
+				18F6A9631D5732FA00083120 /* FillTrainTicketOrderViewController.m in Sources */,
+				183989391D64072E007CF4B6 /* CalendarHomeViewController.m in Sources */,
+				18DBD61D1D24FC1E00A2FD7F /* MBProgressHUD.m in Sources */,
+				184313091D5B0D5B00BF072F /* WriteOutFlightOrderController.m in Sources */,
+				185B5C891D1B82B00006CD07 /* XCAPPFunctionsInfor.m in Sources */,
+				18F391EC1D59717000EB7B57 /* FlightOrderInformation.m in Sources */,
+				180C2FC21D33DF5D004DC1A0 /* OrderExpenseDetailView.m in Sources */,
+				18EEB2AA1D20FAD3008D3580 /* AFHTTPRequestOperation.m in Sources */,
+				18D1FFEA1D65B5A100B28F88 /* PaySuccessfulViewController.m in Sources */,
+				18F5BCEC1D29579200C97386 /* HotelPersonalCollectController.m in Sources */,
+				18FA1AA81D1AE63500FEEE61 /* HUIKeyboard.m in Sources */,
 				18FA1A641D1ADA1000FEEE61 /* ViewController.m in Sources */,
+				1889A1941D549642008E5CBF /* SetupInforForTrainViewController.m in Sources */,
+				18D3202E1D98C1250015EED4 /* TrainTicketAllSiftConditionLayerView.m in Sources */,
+				18DBD5EC1D24FB5500A2FD7F /* FMImageToolbar.m in Sources */,
+				18DBD6161D24FB7F00A2FD7F /* UIImageView+WebCache.m in Sources */,
+				1839893D1D64072E007CF4B6 /* CalendarViewController.m in Sources */,
+				18EEB2AE1D20FAD3008D3580 /* AFPropertyListRequestOperation.m in Sources */,
+				185CC6A31D215B9500417D56 /* XCFMSettings.m in Sources */,
+				181AFD721D36370400F2B844 /* HotelCommentController.m in Sources */,
+				18D1FFED1D65B5E400B28F88 /* PayFailureViewController.m in Sources */,
+				183EC8DE1D92379A00BF7659 /* CityInforForTrainTicketController.m in Sources */,
+				183C473F1D2107240084693D /* OpenUDID.m in Sources */,
+				18FA1A931D1AE58100FEEE61 /* UIButton+Bootstrap.m in Sources */,
+				182E19C41F298565004FAF3E /* BabyInfo.m in Sources */,
+				18EEB2AF1D20FAD3008D3580 /* AFURLConnectionOperation.m in Sources */,
+				1843130C1D5B22B100BF072F /* RCStandardController.m in Sources */,
+				187AA6FB1D828666002E0C18 /* TrainticketOrderInforController.m in Sources */,
+				18DBD6151D24FB7F00A2FD7F /* UIImage+MultiFormat.m in Sources */,
+				181AFD6B1D36368500F2B844 /* HotelMapAddressController.m in Sources */,
+				18FA1AA91D1AE63500FEEE61 /* HUILoadMoreCell.m in Sources */,
+				1889A1891D548EDD008E5CBF /* TrainTicketListViewController.m in Sources */,
+				18DBD6141D24FB7F00A2FD7F /* UIImage+GIF.m in Sources */,
+				18F391E61D5834E500EB7B57 /* ReturnedMoneyInstructionsController.m in Sources */,
+				18D52DCE1D3CAA2000026E78 /* UserLoginViewController.m in Sources */,
+				18DBD60E1D24FB7F00A2FD7F /* SDWebImageDecoder.m in Sources */,
+				1839893B1D64072E007CF4B6 /* CalendarMonthCollectionViewLayout.m in Sources */,
+				18F391EF1D59CCA000EB7B57 /* UITableViewFlightHeaderView.m in Sources */,
+				184EC4671D3E23F800DDA755 /* HotelMoveIntoDateController.m in Sources */,
+				186551D71DBF6EE8008E2192 /* TrainTicketOrderDetailInforView.m in Sources */,
+				184EC4641D3E23C400DDA755 /* HotelAtCitySearchController.m in Sources */,
+				18F6A9661D57331800083120 /* FillTrainTicketOrderSecondController.m in Sources */,
+				18D52DD11D3CAAA000026E78 /* UserReSetPwdViewController.m in Sources */,
+				18DBD5ED1D24FB5500A2FD7F /* FMImageView.m in Sources */,
+				18ADD0A91DB6246300AA8216 /* UITableViewHotelRoomHeaderView.m in Sources */,
+				18DBD60D1D24FB7F00A2FD7F /* SDWebImageCompat.m in Sources */,
+				18EEB2AB1D20FAD3008D3580 /* AFImageRequestOperation.m in Sources */,
+				1825FF9B1DB74CDE0021B570 /* HotelReserveTenantInforTableCell.m in Sources */,
+				1840CCE91D630C11009D780A /* FlightSearchListLayerView.m in Sources */,
+				18745F271D22803A00731F7D /* HotelInformation.m in Sources */,
+				185B5C9D1D1B8B240006CD07 /* XCTabBarController.m in Sources */,
+				18FA1AD31D1AE6B900FEEE61 /* UIColor+RCColor.m in Sources */,
+				1815DA051D23AAA700F86073 /* HTTPClient+HotelsRequest.m in Sources */,
+				185DE7541D22533F00DDC5FC /* UserInformationClass.m in Sources */,
+				187AA6F81D8285A0002E0C18 /* FlightOrderInfoDetailController.m in Sources */,
+				1875BF861DC04F190030C863 /* HotelReserveOrderDetailView.m in Sources */,
+				18EEB2B01D20FAD3008D3580 /* AFXMLRequestOperation.m in Sources */,
+				188D745E1D212C0500884933 /* SetupViewController.m in Sources */,
+				183F22581D5A03690002AEA5 /* ASLocalSetupSystemNotification.m in Sources */,
+				189932111DFFDFF2002701FF /* UIUserOperationButton.m in Sources */,
+				18F391E91D59713E00EB7B57 /* FlightMainListViewController.m in Sources */,
+				184A24621D2F768700531065 /* XCAPPUITextField.m in Sources */,
+				18924E381D26687E0097188C /* HotelSearcSetupBottomView.m in Sources */,
+				185B5C941D1B8ABA0006CD07 /* AuthorizeMainViewController.m in Sources */,
+				1843AA871D6AF59200EEF980 /* HotelRoomDetailView.m in Sources */,
+				1841551A1D546AE200086370 /* TrainticketInformation.m in Sources */,
+				188009BA1D2A630F00822B43 /* UserHotelOrderInformation.m in Sources */,
+				181AFD651D36112B00F2B844 /* PriceStarSearchLayerView.m in Sources */,
+				180C2FC51D348D53004DC1A0 /* AddMoveIntoPersonnelViewController.m in Sources */,
+				1889A1971D5499F4008E5CBF /* AddTrainTicketUserInforController.m in Sources */,
+				185CC69F1D215B4100417D56 /* XCCurrentUserInfo.m in Sources */,
+				187C8DB41D6D920C00A8A628 /* ReviseMoveIntoDateView.m in Sources */,
+				18FA1AAB1D1AE63500FEEE61 /* NSDateFormatter+HUIAddition.m in Sources */,
+				18DBD5EF1D24FB5500A2FD7F /* ImageContentScrollView.m in Sources */,
+				1839893A1D64072E007CF4B6 /* CalendarLogic.m in Sources */,
+				18DBD61C1D24FC1E00A2FD7F /* MBProgressHUD+Add.m in Sources */,
+				18FA1AAD1D1AE63500FEEE61 /* UIScreen+HUIAddtion.m in Sources */,
+				185B5C751D1B7D900006CD07 /* XCAPPUIViewController.m in Sources */,
+				184A245E1D2E56D000531065 /* SetPasswordViewController.m in Sources */,
+				18FA1A941D1AE58100FEEE61 /* FAImageView.m in Sources */,
+				18ADA59D1D20C5BD003188A4 /* AppDelegate+AppDelegateExpandVendor.m in Sources */,
+				18DBD5EE1D24FB5500A2FD7F /* ImageBrowse.m in Sources */,
+				1889A19B1D54A076008E5CBF /* InvoiceInforViewController.m in Sources */,
+				18FA1A971D1AE58100FEEE61 /* NSString+FontAwesome.m in Sources */,
+				184155201D547F0E00086370 /* FlightInforMainController.m in Sources */,
+				185B5C721D1B7D730006CD07 /* XCAPPNavigationController.m in Sources */,
+				18301FEF1DB8AFB6007B94B9 /* MoreSiftRequirementAreaTableViewCell.m in Sources */,
+				18DBD5F01D24FB5500A2FD7F /* LoadProgressView.m in Sources */,
+				18EEB2B11D20FAD3008D3580 /* JSONKit.m in Sources */,
+				180C2FBC1D33D998004DC1A0 /* PerOrderTableViewCell.m in Sources */,
+				181AFD6F1D3636AA00F2B844 /* HotelIntroduceController.m in Sources */,
+				18290F701D2CF4740094D35C /* BundlePhoneFinishViewController.m in Sources */,
+				18DBD6101D24FB7F00A2FD7F /* SDWebImageDownloaderOperation.m in Sources */,
+				18EEB2B91D20FD51008D3580 /* HTTPClient.m in Sources */,
+				18D1FFE41D6567F600B28F88 /* RTArealocationView.m in Sources */,
+				1846F5951D66DED000B3125F /* SelectedUserInforViewController.m in Sources */,
+				1815DA0D1D23ADA800F86073 /* UIScrollView+SVPullToRefresh.m in Sources */,
+				1892AD6C1DC1A92C00E4ADDF /* TrainTicketReturnController.m in Sources */,
+				18F6A9691D57335300083120 /* CheckTrainOrderController.m in Sources */,
+				18745F201D227E3600731F7D /* XCBaseUITableViewCell.m in Sources */,
+				18DBD6131D24FB7F00A2FD7F /* UIButton+WebCache.m in Sources */,
+				18B073521D33760500A8C6EC /* WorkerManageSettingController.m in Sources */,
+				181AFD591D35E58100F2B844 /* HTTPClient+OrderRequest.m in Sources */,
+				185B5C911D1B8AA30006CD07 /* HomeMainViewController.m in Sources */,
+				18DBD60F1D24FB7F00A2FD7F /* SDWebImageDownloader.m in Sources */,
+				180C2FB91D33D97B004DC1A0 /* PerOrderListViewController.m in Sources */,
+				1841A2A61D488B3C00DECE2F /* UserReserveHotelViewController.m in Sources */,
+				183989431D640BBD007CF4B6 /* CityInforViewController.m in Sources */,
+				185B5C971D1B8ACC0006CD07 /* ItineraryMainViewController.m in Sources */,
+				183989371D64072E007CF4B6 /* CalendarDayCell.m in Sources */,
+				1815DA0C1D23ADA800F86073 /* UIScrollView+SVInfiniteScrolling.m in Sources */,
+				1889A1911D54951F008E5CBF /* RelatedCNTViewController.m in Sources */,
+				18FA1AD41D1AE6B900FEEE61 /* UIImage+RCImage.m in Sources */,
+				1846F5981D66E00100B3125F /* SelectedUserInforTableViewCell.m in Sources */,
+				184155231D547F2800086370 /* TrainTicketInforMainController.m in Sources */,
+				18745F1D1D227DC900731F7D /* HotelMainListInforViewController.m in Sources */,
+				18FA1AAC1D1AE63500FEEE61 /* UIDevice+HUIAddtion.m in Sources */,
 				18FA1A611D1ADA1000FEEE61 /* AppDelegate.m in Sources */,
+				18B32ADE1D9EA24E007A17E4 /* HTTPClient+FlightInforRequest.m in Sources */,
+				18CF5DB01D23D06A00E00E09 /* XCLocationManager.m in Sources */,
+				18EEB2B61D20FC39008D3580 /* WebAPIResponse.m in Sources */,
+				1841551D1D546B3400086370 /* FlightInformation.m in Sources */,
+				18D52DD71D3CAB2B00026E78 /* ForgetGetVerCodeController.m in Sources */,
+				18FA1ACF1D1AE6B900FEEE61 /* NSDate+TimeAgo.m in Sources */,
+				18D1FFF61D661CA900B28F88 /* WorkerManageTableViewCell.m in Sources */,
+				18FC5CEC1DB4D901006C3B5D /* OrderExpenseTrainTicketDetailView.m in Sources */,
+				1825FF981DB746D30021B570 /* HotelReserveTenantInforController.m in Sources */,
+				18FE69AC1D697F0D003FC66E /* HotelDetailTableViewCell.m in Sources */,
+				18DBD6201D25019100A2FD7F /* BusinessTravelExplainController.m in Sources */,
 				18FA1A5E1D1ADA1000FEEE61 /* main.m in Sources */,
+				1843130F1D5B2B7A00BF072F /* HTTPClient+TrainTickeRequest.m in Sources */,
+				183989381D64072E007CF4B6 /* CalendarDayModel.m in Sources */,
+				1882709C1D8684B500907CAE /* TrainTicketSearchListLayerView.m in Sources */,
+				18DBD60C1D24FB7F00A2FD7F /* SDImageCache.m in Sources */,
+				185B5C9A1D1B8ADF0006CD07 /* PersonalInforViewController.m in Sources */,
+				1839893C1D64072E007CF4B6 /* CalendarMonthHeaderView.m in Sources */,
+				18D52DD41D3CAADD00026E78 /* ForgetPasswordViewController.m in Sources */,
+				18FA1AAA1D1AE63500FEEE61 /* HUILocationManager.m in Sources */,
+				18F391E31D5832A700EB7B57 /* TrainPassStationController.m in Sources */,
+				18FA1AD51D1AE6B900FEEE61 /* UIView+ViewCategory.m in Sources */,
+				18B073551D33766B00A8C6EC /* AddNewWorkerViewController.m in Sources */,
+				18EEB2A91D20FAD3008D3580 /* AFHTTPClient.m in Sources */,
+				18FA1A951D1AE58100FEEE61 /* FontAwesome.m in Sources */,
+				18EEB2AC1D20FAD3008D3580 /* AFJSONRequestOperation.m in Sources */,
+				18FA1A981D1AE58100FEEE61 /* UIFont+FontAwesome.m in Sources */,
+				18290F6D1D2CF4610094D35C /* BundlePhoneController.m in Sources */,
+				18D52DDA1D3CAB6F00026E78 /* ForgetResetPwdController.m in Sources */,
+				18F6A9311D55B39300083120 /* TrainticketOrderInformation.m in Sources */,
+				18DBD5EB1D24FB5500A2FD7F /* FMImageModel.m in Sources */,
+				182109D21D9B975C00D86E4B /* HotelOrderInfoDetailController.m in Sources */,
+				18D1FFF31D65B73500B28F88 /* UserPersonalOrderInformation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		18FA1A651D1ADA1000FEEE61 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18FA1A661D1ADA1000FEEE61 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		18FA1A6A1D1ADA1000FEEE61 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18FA1A6B1D1ADA1000FEEE61 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		18FA1A6E1D1ADA1000FEEE61 /* Debug */ = {
@@ -195,9 +1882,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: liguang zhang (M3L397SY22)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: liguang zhang (M3L397SY22)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -214,9 +1903,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "25b04f5f-3c56-41bf-96bb-2f39af6c6d9d";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -239,9 +1929,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Lvye Shijie Information Technology Co., Ltd (6229KYTQKY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Lvye Shijie Information Technology Co., Ltd (6229KYTQKY)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -252,8 +1944,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "286d140a-9b66-42c2-a7eb-6c41b6e44347";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -263,10 +1956,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer: liguang zhang (M3L397SY22)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XCAPP/XCAPPProductVendors/UmengSDK",
+					"$(PROJECT_DIR)/MAMap",
+				);
+				GCC_PREFIX_HEADER = "../XCAPP/XCAPP/XCAPP-Prefix.pch";
 				INFOPLIST_FILE = XCAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = www.lvye.com.XCAPP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XCAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Debug;
 		};
@@ -274,10 +1981,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets-2";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Lvye Shijie Information Technology Co., Ltd (6229KYTQKY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XCAPP/XCAPPProductVendors/UmengSDK",
+					"$(PROJECT_DIR)/MAMap",
+				);
+				GCC_PREFIX_HEADER = "../XCAPP/XCAPP/XCAPP-Prefix.pch";
 				INFOPLIST_FILE = XCAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = www.lvye.com.XCAPP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XCAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Release;
 		};
@@ -300,6 +2021,7 @@
 				18FA1A721D1ADA1000FEEE61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
